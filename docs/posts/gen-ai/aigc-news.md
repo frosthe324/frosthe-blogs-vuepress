@@ -12,30 +12,45 @@ tag:
 
 # GenAI News from all Channels
 
-## 2025.08.08 - OpenAI announced GPT5
+## 2025.08.27 - Google 发布 NanoBanana / Gemini 2.5 Flash Image Preview
 
-[GPT-5 is here](https://openai.com/gpt-5/)
+发布并集成至 [Google AI Studio](https://aistudio.google.com/apps)
 
-## 2025.08.06 - Google released Genie 3
+## 2025.08.21 - DeepSeek-V3.1 发布
+
+[DeepSeek-V3.1](https://api-docs.deepseek.com/zh-cn/news/news250821) 主要变化：
+
+- 混合推理架构：一个模型同时支持思考模式与非思考模式；
+- 更高的思考效率：相比 DeepSeek-R1-0528，DeepSeek-V3.1-Think 能在更短时间内给出答案；
+- 更强的 Agent 能力：通过 Post-Training 优化，新模型在工具使用与智能体任务中的表现有较大提升
+
+DeepSeek API 也已同步升级，`deepseek-chat` 对应非思考模式，`deepseek-reasoner` 对应思考模式，且上下文均已扩展为 128K。同时，API Beta 接口支持了 strict 模式的 `Function Calling`，以确保输出的 Function 满足 schema 定义。详见 [Function Calling](https://api-docs.deepseek.com/zh-cn/guides/function_calling)
+
+## 2025.08.21 - Context as Memory
+
+偏向内存一致性的视频生成策略 [Context as Memory@GitHub](https://context-as-memory.github.io/)
+
+## 2025.08.08 - OpenAI 宣布 GPT5
+
+OpenAI [GPT-5 is here](https://openai.com/gpt-5/)
+
+## 2025.08.06 - Google 发布 Genie 3 世界模型
 
 [Genie 3: A new frontier for world models](https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/)
 
 General purpose world model that can generate an unprecedented diversity of interactive environments.
 
-Really impressive video, nice rendering, memory (the painting part).
-
-## 2025.08.06 - OpenAI released their opensource models
+## 2025.08.06 - OpenAI 发布开源模型
 
 [Open models by OpenAI](https://openai.com/open-models/)
 
-There is a 20B and a 120B, both MoE models, with very good quality.
-License is Apache 2.0.
+20B and a 120B, both are MoE models, with very good quality. License is Apache 2.0.
 
-## 2025.08.05 - Google NotebookLM now has a video mode
+## 2025.08.05 - Google NotebookLM 引入视频模式(video mode)
 
 [Google NotebookLM](https://notebooklm.google/)
 
-## 2025.07.19 - Universal Tool Calling Protocal(UTCP) - A safer, scalable tool-calling alternative to MCP
+## 2025.07.19 - Universal Tool Calling Protocal(UTCP) - 更快、伸缩性更强的 MCP 替代协议
 
 - [Reddit thread](https://www.reddit.com/r/LocalLLaMA/comments/1lzl5zk/utcp_a_safer_scalable_toolcalling_alternative_to/)
 - [universal-tool-calling-protocol@GitHub](https://github.com/universal-tool-calling-protocol)
@@ -76,14 +91,14 @@ It creates worlds at runtime
 - [Introducing Chat Mode@X](https://x.com/runwayml/status/1933213502728237342)
 - [Runway](https://runwayml.com/)
 
-## 2025.05.25 - BAGEL: The Open-Source Unified Multimodal Model
+## 2025.05.25 - BAGEL: 开源统一多模态模型
 
 [BAGEL](https://bagel-ai.org/)
 
-## 2025.05.20 - DeepWiki - generate interactive docs + RAG from any public GitHub repo
+## 2025.05.20 - DeepWiki - 生成交互式文档且支持从任意 GitHub 仓库集成 RAG
 
 [DeepWiki](https://deepwiki.com/)
 
-## 2025.05.18 - OpenAI releaseing Codex
+## 2025.05.18 - OpenAI 发布 Codex
 
 [OpenAI Codex](https://openai.com/codex/)
