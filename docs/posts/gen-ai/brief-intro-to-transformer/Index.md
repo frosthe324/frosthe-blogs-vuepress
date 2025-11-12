@@ -15,6 +15,8 @@ tag:
 
 # Transformer 架构简介
 
+参考索引文章: [Generative AI exists because of the transformer](https://ig.ft.com/generative-ai/)
+
 ## 词嵌入 - Embedding
 
 要编写文本，大型语言模型必须首先将单词翻译成它们能够理解的语言。以下将 "We go to work by train" 为例，初探大语言模型的工作原理。
