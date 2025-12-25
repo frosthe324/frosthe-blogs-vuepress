@@ -23,10 +23,10 @@ tag:
 
 ## 项目相关命令
 
-- `uv init`: 基于当前工作目录创建一个 Python 项目
+- `uv init`: 基于当前工作目录创建一个 Python 项目，这会创建一系列文件，包括 `.gitignore`, `pyproject.toml` 以及一个 `.python-version` 文件
 - `uv add`: 为当前项目添加一个 Python 包依赖
 - `uv remove`: 从当前项目移除一个 Python 包依赖
-- `uv sync`: 将当前项目的依赖与 Python 环境保持同步
+- `uv sync`: 将当前项目的依赖与 Python 环境保持同步。该命令类似于 `npm install`，会下载所有项目声明的依赖包。
 - `uv lock`: 为当前项目的依赖项创建一个 lock 锁定文件，以便签入源代码，保持依赖项版本一致
 - `uv run`: 在当前项目环境运行一个命令/脚本
 - `uv tree`: 查看当前项目的依赖树结构
