@@ -134,10 +134,10 @@ code=MsCeLvIaQm6bTrgtp7&client_id=812741506391&client_secret={client_secret}&red
 `Response`:
 ```bash
 {
-  "access_token": "2YotnFZFEjr1zCsicMWpAA",
+  "access_token": "XXXXXXXXXXXXX",
   "token_type": "Bearer",
   "expires_in": 3600,
-  "refresh_token": "tGzv3JOkF0XG5Qx2TlKWIA"
+  "refresh_token": "XXXXXXXXXXXXX"
 }
 ```
 `Response` 的 `Body` 部分为 JSON 格式，描述了 `Token` 的信息。
@@ -194,10 +194,10 @@ state=af0ifjsldkj
 以及在 `Authorization Grant` 向 `Authorization Server` 换取 `Token` 后的 `Response` 中新增了 `ID Token`:
 ```bash
 {
-  "access_token": "2YotnFZFEjr1zCsicMWpAA",
+  "access_token": "XXXXXXXXXXXXXXX",
   "token_type": "Bearer",
   "expires_in": 3600,
-  "refresh_token": "tGzv3JOkF0XG5Qx2TlKWIA",
+  "refresh_token": "XXXXXXXXXXXXXXXX",
   **"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjFlOWdkazcifQ..."**
 }
 ```
