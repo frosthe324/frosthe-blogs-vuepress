@@ -63,7 +63,12 @@ export default defineUserConfig({
       category: [
         {
           key: 'category',
-          getter: (page) => page.frontmatter.category || [],
+          getter: (page) => {
+            const category = page.frontmatter.category || []
+            return Array.isArray(category) 
+              ? category.map(c => String(c)).filter(Boolean)
+              : []
+          },
           layout: 'Category',
           itemLayout: 'Category',
           frontmatter: () => ({
@@ -77,7 +82,12 @@ export default defineUserConfig({
         },
         {
           key: 'tag',
-          getter: (page) => page.frontmatter.tag || [],
+          getter: (page) =>{
+            const tag = page.frontmatter.tag || page.frontmatter.tags || []
+            return Array.isArray(tag) 
+              ? tag.map(t => String(t)).filter(Boolean)
+              : []
+          } ,
           layout: 'Tag',
           itemLayout: 'Tag',
           frontmatter: () => ({
