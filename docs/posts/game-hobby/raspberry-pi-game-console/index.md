@@ -2,6 +2,7 @@
 title: DIY - 自制树莓派便携游戏机
 date: 2019-05-18 14:32:58
 description: 本文探索了通过树莓派加 UPS 模块的组合实现自制便携性游戏机
+excerpt: 本文探索了通过树莓派加 UPS 模块的组合实现自制便携性游戏机
 category:
 - DIY
 tag:

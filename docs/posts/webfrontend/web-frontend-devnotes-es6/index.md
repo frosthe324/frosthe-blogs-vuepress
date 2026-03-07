@@ -2,30 +2,13 @@
 title: Web Front-end Basics - ES6
 date: 2019-08-16 09:21:58
 description: Points of ES6
+excerpt: Points of ES6
 category:
   - WebFrontend
 tag:
   - javascript
   - es
 ---
-
-- [let & const](#let--const)
-- [blcoks & IIFEs](#blcoks--iifes)
-- [Strings in ES6 / ES2015](#strings-in-es6--es2015)
-- [Arrorw Functions](#arrorw-functions)
-- [Destructuring](#destructuring)
-- [Arrays in ES6 / ES2016](#arrays-in-es6--es2016)
-- [The Spread Operator](#the-spread-operator)
-- [Maps](#maps)
-- [Classes & Inheritance](#classes--inheritance)
-  - [Static methods](#static-methods)
-  - [Subclasses](#subclasses)
-- [Asynchronous Javascript & Promises](#asynchronous-javascript--promises)
-  - [Promise](#promise)
-  - [Async/Await](#asyncawait)
-- [ES6 Modules](#es6-modules)
-  - [Exports](#exports)
-- [Misc Notes](#misc-notes)
 
 ## let & const
 

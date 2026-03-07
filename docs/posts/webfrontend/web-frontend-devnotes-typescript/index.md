@@ -2,58 +2,13 @@
 title: Web Front-end Notes - Typescript
 date: 2020-09-07 09:21:58
 description: Basics of Typescript
+excerpt: Basics of Typescript
 category:
   - WebFrontend
 tag:
   - typescript
   - javascript
 ---
-
-- [Types](#types)
-  - [Core Types](#core-types)
-  - [Object Type](#object-type)
-  - [Union \& Intersection Types](#union--intersection-types)
-  - [Literal Types](#literal-types)
-  - [Discriminated Unions](#discriminated-unions)
-  - [Type Aliases](#type-aliases)
-  - [Void Type \& Never Type](#void-type--never-type)
-  - [Functions as Types](#functions-as-types)
-  - [Unknown Type](#unknown-type)
-- [Classes \& Interfaces](#classes--interfaces)
-  - [Classes](#classes)
-  - [Interfaces](#interfaces)
-  - [Type Alias vs. Interfaces](#type-alias-vs-interfaces)
-    - [Declaration Merging](#declaration-merging)
-    - [Extends and Implements](#extends-and-implements)
-    - [What should I use?](#what-should-i-use)
-- [Type Guards](#type-guards)
-  - ["typeof" keyword](#typeof-keyword)
-  - ["in" keyword](#in-keyword)
-  - ["instanceof" keyword](#instanceof-keyword)
-  - [Type Casting](#type-casting)
-    - [`<TType>` before the variable](#ttype-before-the-variable)
-    - ["as" keyword after the variable](#as-keyword-after-the-variable)
-- [Index Properties](#index-properties)
-- [Function Overloads](#function-overloads)
-- [Optional Chaining](#optional-chaining)
-  - [Nullish Coalescing](#nullish-coalescing)
-- [Generic Types](#generic-types)
-  - [Constraints](#constraints)
-    - ["keyof" Constraint](#keyof-constraint)
-  - [Typescript built-in generic utility types](#typescript-built-in-generic-utility-types)
-- [Decorators](#decorators)
-  - [Class Decorators](#class-decorators)
-  - [Property Decorators](#property-decorators)
-  - [Accessor Decorators](#accessor-decorators)
-  - [Methods Decorators](#methods-decorators)
-  - [Parameter Decorators](#parameter-decorators)
-- [Typescript Compiler](#typescript-compiler)
-  - [Watch mode:](#watch-mode)
-  - [Compile entire project:](#compile-entire-project)
-  - [tsconfig.json](#tsconfigjson)
-    - [compilerOptions section](#compileroptions-section)
-  - [Debugging with Visual Studio Code](#debugging-with-visual-studio-code)
-  - [Declaration Files](#declaration-files)
 
 ## Types
 

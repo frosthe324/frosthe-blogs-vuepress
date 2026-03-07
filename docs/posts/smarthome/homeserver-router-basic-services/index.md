@@ -2,6 +2,7 @@
 title: 路由器基础服务详解 - DHCP, DNS, NAT
 date: 2018-05-20 11:19:04
 description: 本文简要介绍了家庭网关的基础服务 - DHCP，DNS 和 NAT
+excerpt: 本文简要介绍了家庭网关的基础服务 - DHCP，DNS 和 NAT
 category:
 - Home Server
 tag:
@@ -11,7 +12,7 @@ reward_settings:
 ---
 
 本文索引:
-- [前言](#%E5%89%8D%E8%A8%80)
+- [前言](#前言)
 - [DHCP](#dhcp)
 - [DNS](#dns)
 - [NAT](#nat)

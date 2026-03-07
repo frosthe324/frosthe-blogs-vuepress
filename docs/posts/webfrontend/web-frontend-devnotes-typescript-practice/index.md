@@ -2,23 +2,13 @@
 title: Web Front-end Notes - Typescript Practice
 date: 2021-03-01 09:21:58
 description: Notes of Typescript practice
+excerpt: Notes of Typescript practice
 category:
   - WebFrontend
 tag:
   - typescript
   - javascript
 ---
-
-- [TypeScript Tooling](#typescript-tooling)
-- [TypeScript Centralized World](#typescript-centralized-world)
-  - [TypeScript Linting](#typescript-linting)
-    - [TypeScript Vue Project Linting](#typescript-vue-project-linting)
-  - [TypeScript Unit Testing](#typescript-unit-testing)
-    - [Jest](#jest)
-- [Debugging Typescript in VSCode](#debugging-typescript-in-vscode)
-  - [Debug nodejs files](#debug-nodejs-files)
-  - [Debug web front-end files](#debug-web-front-end-files)
-  - [Debug Unit Test Files from VSCode](#debug-unit-test-files-from-vscode)
 
 ## TypeScript Tooling
 

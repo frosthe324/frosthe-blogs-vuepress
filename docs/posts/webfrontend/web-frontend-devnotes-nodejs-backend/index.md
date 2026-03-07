@@ -2,46 +2,13 @@
 title: Web Front-end Basics - Nodejs
 date: 2020-03-10 09:21:58
 description: Intro of Nodejs backend development
+excerpt: Intro of Nodejs backend development
 category:
   - WebFrontend
 tag:
   - javascript
   - nodejs
   - backend
----
-
-- [How modules work behind the scenes](#how-modules-work-behind-the-scenes)
-- [Event loop](#event-loop)
-  - [Tricks](#tricks)
-- [Streams](#streams)
-- [Notes:](#notes)
-- [Environment Variables in Nodejs Development](#environment-variables-in-nodejs-development)
-- [Express](#express)
-  - [Middlewares](#middlewares)
-  - [Routing](#routing)
-- [MongoDB](#mongodb)
-- [Mongoose](#mongoose)
-  - [Schema](#schema)
-  - [Model](#model)
-    - [Virtual Properties](#virtual-properties)
-    - [Query](#query)
-    - [Aggregation Pipeline](#aggregation-pipeline)
-  - [Mongoose Middleware](#mongoose-middleware)
-  - [Validation](#validation)
-- [Error handling in Nodejs Applications](#error-handling-in-nodejs-applications)
-  - [Central error handling middleware](#central-error-handling-middleware)
-  - [How developers should handle errors](#how-developers-should-handle-errors)
-- [Security Summary](#security-summary)
-  - [Compromised Database](#compromised-database)
-  - [Brute Forces Attacks](#brute-forces-attacks)
-  - [Cross-site Scripting Attack](#cross-site-scripting-attack)
-  - [Denial-Of-Service(DOS) Attacks](#denial-of-servicedos-attacks)
-  - [NO-SQL Query Injection Attacks](#no-sql-query-injection-attacks)
-  - [Other Best Practices and Suggestions](#other-best-practices-and-suggestions)
-- [Data Modelling](#data-modelling)
-  - [Types of Relations](#types-of-relations)
-  - [Referencing vs. Embedding](#referencing-vs-embedding)
-
 ---
 
 ## How modules work behind the scenes

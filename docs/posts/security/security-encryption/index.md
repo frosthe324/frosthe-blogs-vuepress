@@ -2,6 +2,7 @@
 title: 加解密笔记及 .NET 实现
 date: 2018-06-21 13:17:30
 description: 关于密码信息的概念及工作原理笔记，不间断更新
+excerpt: 关于密码信息的概念及工作原理笔记，不间断更新
 category:
 - Cryptography
 tag:

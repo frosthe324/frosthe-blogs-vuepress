@@ -13,20 +13,6 @@ tag:
 - styles
 ---
 
-- [Responsive Design Stategies - Desktop-first or Mobile-first](#responsive-design-stategies---desktop-first-or-mobile-first)
-  - [Mobile-first Pros \& Cons](#mobile-first-pros--cons)
-- [Media Queries](#media-queries)
-  - [Selecting breakpoints](#selecting-breakpoints)
-  - [Use media query together with mix-ins](#use-media-query-together-with-mix-ins)
-- [Responsive images](#responsive-images)
-  - [Responsive images in HTML and CSS](#responsive-images-in-html-and-css)
-    - [Density Switching](#density-switching)
-    - [Art Direction](#art-direction)
-    - [Resolution Switching](#resolution-switching)
-  - [Responsive image in CSS](#responsive-image-in-css)
-
----
-
 ## Responsive Design Stategies - Desktop-first or Mobile-first
 
 ![Responsive design strategies overview](./responsive-design-stategies-overview.png)

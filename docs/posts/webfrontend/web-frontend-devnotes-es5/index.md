@@ -2,33 +2,13 @@
 title: Web Front-end Basics - ES5
 date: 2019-08-14 09:21:58
 description: Points of ES5
+excerpt: Points of ES5
 category:
   - WebFrontend
 tag:
   - javascript
   - es
 ---
-
-- [ES History](#es-history)
-- [Javascript Basics](#javascript-basics)
-  - [Falsy and Truthy Values](#falsy-and-truthy-values)
-  - [Double exclamation marks](#double-exclamation-marks)
-  - [Equal Operations](#equal-operations)
-  - [Function Expression and Function Declaration](#function-expression-and-function-declaration)
-  - [Arrays](#arrays)
-- [Javascript Engine](#javascript-engine)
-  - [Execution Context](#execution-context)
-  - [Hoisting(提升)](#hoisting提升)
-  - [Event & Event Loop](#event--event-loop)
-    - [Message Queue](#message-queue)
-    - [setTimeout](#settimeout)
-- [Prototype Inheritance](#prototype-inheritance)
-- [Functions](#functions)
-  - [Passing Functions as Arguments](#passing-functions-as-arguments)
-  - [Functions Returning Functions](#functions-returning-functions)
-  - [Immediately Invoked Funtion Expression(IIFE)](#immediately-invoked-funtion-expressioniife)
-  - [Closures](#closures)
-  - [Bind, Call and Apply](#bind-call-and-apply)
 
 ## ES History
 

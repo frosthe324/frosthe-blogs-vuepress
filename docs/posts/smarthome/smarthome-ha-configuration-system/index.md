@@ -2,6 +2,7 @@
 title: 智慧家庭 - 认识 Home Assistant 的配置系统
 date: 2018-05-25 19:55:29
 description: 本文介绍了 Home Assistant 基于 YAML 的配置系统
+excerpt: 本文介绍了 Home Assistant 基于 YAML 的配置系统
 category:
 - Smart Home
 tag:

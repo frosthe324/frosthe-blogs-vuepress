@@ -2,6 +2,7 @@
 title: OAuth 2.0 和 OpenID Connect
 date: 2018-07-28 20:35:31
 description: 本文介绍了 OAuth2.0，OpenID Connect 和 .NET 生态实现 IdentityServer4
+excerpt: 本文介绍了 OAuth2.0，OpenID Connect 和 .NET 生态实现 IdentityServer4
 category:
 - Cryptography
 tag:

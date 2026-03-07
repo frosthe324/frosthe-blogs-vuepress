@@ -1,6 +1,7 @@
 ---
 title: 向 Let's Encrypt CA 申请单域名证书
 description: Let's Encrypt 是一个免费发放 SSL 证书的 CA，本文介绍了其申请流程及推荐工具 Certbot 的使用
+excerpt: Let's Encrypt 是一个免费发放 SSL 证书的 CA，本文介绍了其申请流程及推荐工具 Certbot 的使用
 date: 2018-07-20 19:07:58
 categories: 
 - Cryptography

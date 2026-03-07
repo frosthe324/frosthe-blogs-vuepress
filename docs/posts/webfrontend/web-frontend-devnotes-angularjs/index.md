@@ -2,6 +2,7 @@
 title: Web Front-end Notes - AngularJs
 date: 2020-01-02 16:21:58
 description: Notes of Angularjs
+excerpt: Notes of Angularjs
 category:
   - WebFrontend
 tag:
@@ -10,23 +11,6 @@ tag:
   - mvvm
   - frameworks
 ---
-
-- [Bootstrap](#bootstrap)
-  - [Automatic Initialization](#automatic-initialization)
-  - [Manual Initialization](#manual-initialization)
-- [Dependency Injection](#dependency-injection)
-  - [Factory Methods](#factory-methods)
-  - [Module methods](#module-methods)
-  - [Controllers](#controllers)
-  - [Providers](#providers)
-    - [Life Cycle Phases](#life-cycle-phases)
-    - [Value vs. Constant](#value-vs-constant)
-- [Dependency Annotation](#dependency-annotation)
-  - [Inline Array Annotation](#inline-array-annotation)
-  - [\$inject Property Annotation](#inject-property-annotation)
-  - [Implicit Annotation](#implicit-annotation)
-- [Directives](#directives)
-- [Misc notes](#misc-notes)
 
 ## Bootstrap
 

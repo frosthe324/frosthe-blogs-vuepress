@@ -13,12 +13,6 @@ tag:
 - styles
 ---
 
-- [Flex Layout](#flex-layout)
-  - [Tricks](#tricks)
-- [Grid Layout(TBD)](#grid-layouttbd)
-
----
-
 ## Flex Layout
 
 Flex container properties, first candidate value is also the initial value:

@@ -2,6 +2,7 @@
 title: 家庭数字化系统 - 准备树莓派
 date: 2018-06-01 16:01:04
 description: 记录了搭建新购入的树莓派的全过程
+excerpt: 记录了搭建新购入的树莓派的全过程
 category:
 - Home Server
 tag:

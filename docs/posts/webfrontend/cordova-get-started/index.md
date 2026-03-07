@@ -2,27 +2,13 @@
 title: Cordova 快速开始
 date: 2018-11-14 10:18:14
 description: 依据官方文档在 Windows 系统下开始 Cordova 开发
+excerpt: 依据官方文档在 Windows 系统下开始 Cordova 开发
 categories:
 - Hybrid
 tag:
 - hybrid
 - cordova
 ---
-
-参考资料:
-- [Create your first Cordova app](https://cordova.apache.org/docs/en/latest/guide/cli/index.html#test-the-app)
-- [Android Platform Guide](https://cordova.apache.org/docs/en/8.x/guide/platforms/android/index.html#setting-environment-variables)
-
-本文索引:
-- [准备](#%E5%87%86%E5%A4%87)
-- [安装 cordova cli](#%E5%AE%89%E8%A3%85-cordova-cli)
-- [创建 cordova app](#%E5%88%9B%E5%BB%BA-cordova-app)
-- [在 Android 上测试 cordova app](#%E5%9C%A8-android-%E4%B8%8A%E6%B5%8B%E8%AF%95-cordova-app)
-    - [准备](#%E5%87%86%E5%A4%87-1)
-    - [设置环境变量](#%E8%AE%BE%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)
-- [使用 merges 为单独的 platform 提供定制化内容](#%E4%BD%BF%E7%94%A8-merges-%E4%B8%BA%E5%8D%95%E7%8B%AC%E7%9A%84-platform-%E6%8F%90%E4%BE%9B%E5%AE%9A%E5%88%B6%E5%8C%96%E5%86%85%E5%AE%B9)
-- [更新 cordova 及项目](#%E6%9B%B4%E6%96%B0-cordova-%E5%8F%8A%E9%A1%B9%E7%9B%AE)
-
 
 ## 准备
 确保以下工具集已安装好:

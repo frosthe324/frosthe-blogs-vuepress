@@ -2,6 +2,7 @@
 title: 智慧家庭 - 完善 HomeAssistant 的常见基础配置
 date: 2018-05-25 23:50:11
 description: 本文介绍了 Home Assistant 几种常见的应用组件
+excerpt: 本文介绍了 Home Assistant 几种常见的应用组件
 category:
 - Smart Home
 tag:

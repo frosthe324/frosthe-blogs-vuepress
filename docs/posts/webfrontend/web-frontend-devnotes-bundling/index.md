@@ -2,6 +2,7 @@
 title: Web Front-end Notes - Bundling
 date: 2021-10-14 16:21:58
 description: Notes of Web front-end bundling
+excerpt: Notes of Web front-end bundling
 category:
     - WebFrontend
 tag:
@@ -11,7 +12,6 @@ tag:
     - rollup
 ---
 
-___
 ## Webpack
 
 Webpack is used to compile JavaScript modules. Once installed, you can interact with webpack either from its [CLI](https://webpack.js.org/api/cli/) or [API](https://webpack.js.org/api/node/).

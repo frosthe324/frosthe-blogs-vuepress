@@ -137,7 +137,7 @@ export default defineUserConfig({
             new Date(pageA.frontmatter.date).getTime(),
           layout: 'Timeline',
           frontmatter: () => ({
-            title: '时间轴',
+            title: '文章',
             sidebar: false,
           }),
         },

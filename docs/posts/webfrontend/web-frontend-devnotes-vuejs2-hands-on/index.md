@@ -1,6 +1,7 @@
 ---
 title: Web Front-end Notes - Vuejs 2 Practice
 description: Notes of Vuejs 2 Practice
+excerpt: Notes of Vuejs 2 Practice
 date: 2020-08-05 16:21:58
 category:
   - WebFrontend
@@ -10,29 +11,6 @@ tag:
   - framework
   - vuejs
 ---
-
-- [Vue CLI](#vue-cli)
-  - [CLI](#cli)
-  - [CLI Service](#cli-service)
-  - [CLI Plugins](#cli-plugins)
-  - [CLI Presets](#cli-presets)
-- [Setup a Vue CLI project](#setup-a-vue-cli-project)
-  - [Integrate with Webpack](#integrate-with-webpack)
-  - [Debug typescript and vuejs in vs code](#debug-typescript-and-vuejs-in-vs-code)
-- [Vue Caveats](#vue-caveats)
-  - [Array properties](#array-properties)
-  - [Object properties](#object-properties)
-  - [Vue Component/Vue Instance](#vue-componentvue-instance)
-    - [How VueJS manages Data and Methods](#how-vuejs-manages-data-and-methods)
-    - [Mounting a template](#mounting-a-template)
-    - [VueJS Intance Lifecycle](#vuejs-intance-lifecycle)
-    - [Computed Properties](#computed-properties)
-    - [Computed Property vs. Methods](#computed-property-vs-methods)
-    - [Computed Property vs. Watch](#computed-property-vs-watch)
-  - [Plugins](#plugins)
-  - [Define a plugin class in typescript](#define-a-plugin-class-in-typescript)
-  - [Use Functional Components](#use-functional-components)
-  - [The "key" Attribute](#the-key-attribute)
 
 ## Vue CLI
 

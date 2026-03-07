@@ -2,6 +2,7 @@
 title: Web Front-end Basics - Css/Css3
 date: 2019-09-14 16:21:58
 description: Fundamentals of Css/Css3
+excerpt: Fundamentals of Css/Css3
 category:
   - WebFrontend
 tag:
@@ -10,39 +11,6 @@ tag:
   - css-preprocessor
   - styles
 ---
-
-- [3 Pillars of Writing Good HTML and CSS](#3-pillars-of-writing-good-html-and-css)
-  - [Response Design](#response-design)
-  - [Maintainable and Scalable Code](#maintainable-and-scalable-code)
-  - [Web Performance](#web-performance)
-- [How CSS works behind the scenes](#how-css-works-behind-the-scenes)
-  - [Cascade(Resolving conflicting CSS declarations)](#cascaderesolving-conflicting-css-declarations)
-  - [CSS Parsing Phases(Process final CSS values)](#css-parsing-phasesprocess-final-css-values)
-    - [How CSS Engine Calculate Relative Units in Detail](#how-css-engine-calculate-relative-units-in-detail)
-    - [CSS Inheritance](#css-inheritance)
-  - [Visual Formating Model](#visual-formating-model)
-    - [Dimensions of boxes: the box model](#dimensions-of-boxes-the-box-model)
-    - [Box Type](#box-type)
-    - [Positioning Schemes](#positioning-schemes)
-    - [Stacking Contexts](#stacking-contexts)
-- [Sass & NPM](#sass--npm)
-  - [Sass & SCSS](#sass--scss)
-    - [Nesting](#nesting)
-    - [Mix-ins](#mix-ins)
-    - [Functions](#functions)
-    - [Extends](#extends)
-  - [Install Sass Locally](#install-sass-locally)
-  - [7-1 Pattern](#7-1-pattern)
-- [SCSS/CSS Reminders](#scsscss-reminders)
-  - [CSS Reminders](#css-reminders)
-    - [Global Reset](#global-reset)
-    - [box-sizing: border-box](#box-sizing-border-box)
-    - [Selectors](#selectors)
-    - [Pseudo Class/Elements](#pseudo-classelements)
-    - [CSS Native Functions](#css-native-functions)
-    - [How the clearfix come and Why we need it](#how-the-clearfix-come-and-why-we-need-it)
-- [Browser Supports](#browser-supports)
-- [Others](#others)
 
 ## 3 Pillars of Writing Good HTML and CSS
 

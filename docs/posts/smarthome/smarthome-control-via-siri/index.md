@@ -2,6 +2,7 @@
 title: 智慧家庭 - 通过 Siri 控制连接至 HomeAssistant 的智能设备
 date: 2018-05-26 11:03:44
 description: 本文介绍通过 HA 的 homekit 组件实现 Siri 控制智能家居的方法
+excerpt: 本文介绍通过 HA 的 homekit 组件实现 Siri 控制智能家居的方法
 category:
 - Smart Home
 tag:
@@ -19,15 +20,15 @@ reward_settings:
 - [HomeKit - HomeAssistant](https://www.home-assistant.io/components/homekit/#disable-auto-start)
 
 本文索引:
-- [背景](#%E8%83%8C%E6%99%AF)
-- [通过 HomeKit 组件实现](#%E9%80%9A%E8%BF%87-homekit-%E7%BB%84%E4%BB%B6%E5%AE%9E%E7%8E%B0)
-  - [注意事项](#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
-- [通过 HomeBridge 及其插件实现(老方法)](#%E9%80%9A%E8%BF%87-homebridge-%E5%8F%8A%E5%85%B6%E6%8F%92%E4%BB%B6%E5%AE%9E%E7%8E%B0%E8%80%81%E6%96%B9%E6%B3%95)
-  - [安装 NodeJs(Optional)](#%E5%AE%89%E8%A3%85-nodejsoptional)
-  - [安装 Homebridge](#%E5%AE%89%E8%A3%85-homebridge)
-  - [安装 HA 插件](#%E5%AE%89%E8%A3%85-ha-%E6%8F%92%E4%BB%B6)
-  - [配置 config.json](#%E9%85%8D%E7%BD%AE-configjson)
-  - [配置开机启动 Homebridge](#%E9%85%8D%E7%BD%AE%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8-homebridge)
+- [背景](#背景)
+- [通过 HomeKit 组件实现](#通过-homekit-组件实现)
+  - [注意事项](#注意事项)
+- [通过 HomeBridge 及其插件实现(老方法)](#通过-homebridge-及其插件实现老方法)
+  - [安装 NodeJs(Optional)](#安装-nodejsoptional)
+  - [安装 Homebridge](#安装-homebridge)
+  - [安装 HA 插件](#安装-ha-插件)
+  - [配置 config.json](#配置-configjson)
+  - [配置开机启动 Homebridge](#配置开机启动-homebridge)
 
 ## 背景
 比起 `Alexa` ，通过 `Siri` 联通 **HA** 的优势在于:

@@ -2,6 +2,7 @@
 title: X.509 数字证书
 date: 2018-06-24 14:07:58
 description: 本文简要整理了有关数字证书的一系列概念
+excerpt: 本文简要整理了有关数字证书的一系列概念
 categories: 
 - Cryptography
 tag:

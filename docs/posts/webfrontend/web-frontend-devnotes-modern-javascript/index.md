@@ -2,6 +2,7 @@
 title: Web Front-end Basics - Modern Javascript
 date: 2019-11-28 10:11:21
 description: Modern Javascript Setup
+excerpt: Modern Javascript Setup
 category:
   - WebFrontend
 tag:
@@ -9,27 +10,6 @@ tag:
   - modern-javascript
   - toolset
   - nodejs
----
-
-- [SPA Engineering Methodology](#spa-engineering-methodology)
-- [Toolsets](#toolsets)
-  - [NPM](#npm)
-    - [Package Versioning](#package-versioning)
-    - [NPM commands notes:](#npm-commands-notes)
-    - [NPM scripts](#npm-scripts)
-- [ES6 Modules](#es6-modules)
-- [Grunt - Javascript Task Runner](#grunt---javascript-task-runner)
-  - [Installation](#installation)
-  - [Gruntfile](#gruntfile)
-  - [Grunt plugins and tasks](#grunt-plugins-and-tasks)
-  - [Default tasks](#default-tasks)
-  - [Custom tasks](#custom-tasks)
-- [Webpack - Assets Bundler](#webpack---assets-bundler)
-- [Babel - ES Compiler](#babel---es-compiler)
-  - [Polyfill](#polyfill)
-- [Regular Expressions in Javascript](#regular-expressions-in-javascript)
-  - [Advanced searching with flags.](#advanced-searching-with-flags)
-
 ---
 
 ## SPA Engineering Methodology

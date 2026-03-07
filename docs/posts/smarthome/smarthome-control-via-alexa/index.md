@@ -2,6 +2,7 @@
 title: 智慧家庭 - 通过 Amazon Alexa 控制连接至 HomeAssistant 的智能设备
 date: 2018-05-28 11:01:44
 description: 本文介绍两种实现 Alexa 控制 HA 的方法
+excerpt: 本文介绍两种实现 Alexa 控制 HA 的方法
 category:
 - Smart Home
 tag:
@@ -18,17 +19,17 @@ reward_settings:
 - [HA - Alexa/Amazon Echo](https://www.home-assistant.io/components/alexa/)
 
 本文索引:
-- [前言](#%E5%89%8D%E8%A8%80)
-- [通过 Home Assistant Cloud 实现](#%E9%80%9A%E8%BF%87-home-assistant-cloud-%E5%AE%9E%E7%8E%B0)
-  - [配置 Home Assistant Cloud](#%E9%85%8D%E7%BD%AE-home-assistant-cloud)
-    - [创建 Home Assistant Cloud 账号](#%E5%88%9B%E5%BB%BA-home-assistant-cloud-%E8%B4%A6%E5%8F%B7)
-    - [激活 Alexa Home Assistant Skill](#%E6%BF%80%E6%B4%BB-alexa-home-assistant-skill)
-- [通过 HAASKA 实现(TBD)](#%E9%80%9A%E8%BF%87-haaska-%E5%AE%9E%E7%8E%B0tbd)
-  - [准备 HAASKA](#%E5%87%86%E5%A4%87-haaska)
-    - [配置 Amazon AWS](#%E9%85%8D%E7%BD%AE-amazon-aws)
-- [通过 Emulated Hue Bridge 的方式实现](#%E9%80%9A%E8%BF%87-emulated-hue-bridge-%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AE%9E%E7%8E%B0)
-  - [原理](#%E5%8E%9F%E7%90%86)
-  - [实现](#%E5%AE%9E%E7%8E%B0)
+- [前言](#前言)
+- [通过 Home Assistant Cloud 实现](#通过-home-assistant-cloud-实现)
+  - [配置 Home Assistant Cloud](#配置-home-assistant-cloud)
+    - [创建 Home Assistant Cloud 账号](#创建-home-assistant-cloud-账号)
+    - [激活 Alexa Home Assistant Skill](#激活-alexa-home-assistant-skill)
+- [通过 HAASKA 实现(TBD)](#通过-haaska-实现tbd)
+  - [准备 HAASKA](#准备-haaska)
+    - [配置 Amazon AWS](#配置-amazon-aws)
+- [通过 Emulated Hue Bridge 的方式实现](#通过-emulated-hue-bridge-的方式实现)
+  - [原理](#原理)
+  - [实现](#实现)
 
 ## 前言
 要使用 `Amazon Alexa` 控制接入 `HomeAssistant` 的智能设备，有以下可能的办法:

@@ -2,6 +2,7 @@
 title: 智慧家庭 - 架设 HomeAssistant
 date: 2018-05-24 11:03:44
 description: HomeAssistant 是一个开源的智能家居网关项目，本文介绍了以 Docker CE 在树莓派 Raspbian 系统上架设 HA
+excerpt: HomeAssistant 是一个开源的智能家居网关项目，本文介绍了以 Docker CE 在树莓派 Raspbian 系统上架设 HA
 category:
 - Smart Home
 tag:
@@ -19,12 +20,12 @@ reward_settings:
 - [HA Nginx](https://www.home-assistant.io/docs/ecosystem/nginx/)
 
 本文索引:
-- [Home Assistant 简介](#home-assistant-%E7%AE%80%E4%BB%8B)
-- [前提条件](#%E5%89%8D%E6%8F%90%E6%9D%A1%E4%BB%B6)
-- [安装 Home Assistant](#%E5%AE%89%E8%A3%85-home-assistant)
-  - [拉取 HomeAssistan Docker Image](#%E6%8B%89%E5%8F%96-homeassistan-docker-image)
-- [开机启动 HA Container](#%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8-ha-container)
-- [更新 HA](#%E6%9B%B4%E6%96%B0-ha)
+- [Home Assistant 简介](#home-assistant-简介)
+- [前提条件](#前提条件)
+- [安装 Home Assistant](#安装-home-assistant)
+  - [拉取 HomeAssistan Docker Image](#拉取-homeassistan-docker-image)
+- [开机启动 HA Container](#开机启动-ha-container)
+- [更新 HA](#更新-ha)
 
 ## Home Assistant 简介
 [Home Assistant](https://www.home-assistant.io/)(以下简称 HA) 是一个开源的智能家居网关项目，它可以将市面上所有支持的智能硬件设备整合到一起进行统一管理，并提供了默认的 Web UI。HA 社区开发了海量组件以支持市面上主流的设备，在 IoT 中扮演了大脑的角色。在家庭服务器上架设 HA 有多种实现方式，官方也制作了对应的系统镜像 `Hass.io`，并推荐使用「树莓派3B+」作为其宿主机器。

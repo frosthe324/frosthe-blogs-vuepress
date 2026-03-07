@@ -2,6 +2,7 @@
 title: Cordova 的 Plugin 及创建自定义 Android Plugin
 date: 2018-11-17 10:18:14
 description: 本文依据 Cordova 官方文档以 Android 平台为例介绍了创建自定义 Plugin 的流程
+excerpt: 本文依据 Cordova 官方文档以 Android 平台为例介绍了创建自定义 Plugin 的流程
 categories:
 - Hybrid
 tag:
@@ -10,27 +11,6 @@ tag:
 - android
 
 ---
-
-参考资料:
-- [Plugin Development Guide](https://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html)
-- [Create a Custom Cordova Plugin](https://github.com/RootSoft/Create-a-custom-Cordova-plugin)
-- [Android Plugin Development Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/android/plugin.html)
-- [Plugin.xml](https://cordova.apache.org/docs/en/latest/plugin_ref/spec.html)
-
-本文索引:
-- [添加 plugin](#%E6%B7%BB%E5%8A%A0-plugin)
-- [添加 Android 平台支持](#%E6%B7%BB%E5%8A%A0-android-%E5%B9%B3%E5%8F%B0%E6%94%AF%E6%8C%81)
-- [Plugman](#plugman)
-  - [安装 Plugman](#%E5%AE%89%E8%A3%85-plugman)
-- [创建 Plugin](#%E5%88%9B%E5%BB%BA-plugin)
-- [定义 Javascript 接口](#%E5%AE%9A%E4%B9%89-javascript-%E6%8E%A5%E5%8F%A3)
-- [本地实现](#%E6%9C%AC%E5%9C%B0%E5%AE%9E%E7%8E%B0)
-  - [创建 Java 实现类](#%E5%88%9B%E5%BB%BA-java-%E5%AE%9E%E7%8E%B0%E7%B1%BB)
-  - [更新 plugin.xml](#%E6%9B%B4%E6%96%B0-pluginxml)
-- [安装及更新 Plugin](#%E5%AE%89%E8%A3%85%E5%8F%8A%E6%9B%B4%E6%96%B0-plugin)
-- [调试 Plugin](#%E8%B0%83%E8%AF%95-plugin)
-  - [调试 Javascript 源代码](#%E8%B0%83%E8%AF%95-javascript-%E6%BA%90%E4%BB%A3%E7%A0%81)
-  - [调试 Android 源代码](#%E8%B0%83%E8%AF%95-android-%E6%BA%90%E4%BB%A3%E7%A0%81)
 
 ## 添加 plugin
 为了让 `web app` 能够访问移动设备的本地功能，`cordova` 以 `plugin` 的方式粘合 `web app` 和移动设备本地 SDK。`plugin` 将移动设备本地 SDK 的功能以 `Javascript API` 的方式暴露给 `web app`。标准化的 `plugin` 大多以 `npm` 包的形式提供，可借助类似 `cordova plugin search camera` 的命令搜索相应的 `plugin`，而一些通用的 API 则被 `cordova` 内置集成，它们被称为 [Core Plugin APIs](https://cordova.apache.org/docs/en/8.x/guide/support/index.html#core-plugin-apis)。现在，我们将提供本地相机功能的 `camera plugin` 添加至 [Cordova 快速开始](/cordova-get-started)中的初始项目:

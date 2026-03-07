@@ -12,8 +12,7 @@ tag:
 - ecmascript
 ---
 
-
-{% cq %}**New types**{% endcq %}
+**New types**
 
 - [Symbols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol): Symbols are not enumerable in `for...in` iterations, use `Object.getOwnPropertySymbols()` to get these.
 - [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt)
@@ -22,7 +21,8 @@ tag:
 - [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 - [WeakSet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet)
 
-{% cq %}**Classes, Inheritance, Setters,Getters**{% endcq %}
+**Classes, Inheritance, Setters, Getters**
+
 ```javascript
 class Rectangle extends Shape {
  constructor (id, x, y, w, h) {
@@ -51,7 +51,8 @@ class Circle extends Shape {
 Circle.do_b()
 ```
 
-{% cq %}**Promises**{% endcq %}
+**Promises**
+
 ```javascript
 new Promise((resolve, reject) => {
   request.get(url, (error, response, body) => {
@@ -70,7 +71,8 @@ Promise.all([promise1, promise2, promise3]).then(() => {
 });
 ```
 
-{% cq %}**Modules `import` & `export`**{% endcq %}
+**Modules `import` & `export`**
+
 ```javascript
 export var num = 50; 
 export function getName(fullName) {   
@@ -82,14 +84,14 @@ console.log(num); // 50
 ```
 
 
-{% cq %}**Arrow function**{% endcq %}
+**Arrow function**
 ```javascript
 const sum = (a, b) => a + b
 
 console.log(sum(2, 6)) // prints 8
 ```
 
-{% cq %}`const` & `let`{% endcq %}
+`const` & `let`
 
 `let`
 ```Javascript
@@ -104,6 +106,7 @@ console.log(a) // prints 3
 ```
 
 `const`
+
 ```javascript
 // can be assigned only once:
 const a = 55
@@ -111,7 +114,8 @@ const a = 55
 a = 44 // throws an error
 ```
 
-{% cq %}**Default parameters**{% endcq %}
+**Default parameters**
+
 ```javascript
 function print(a = 5) {
     console.log(a)
@@ -121,7 +125,8 @@ print() // prints 5
 print(22) // prints 22
 ```
 
-{% cq %}**String interpolation**{% endcq %}
+**String interpolation**
+
 ```javascript
 const name = 'Leon'
 const message = `Hello ${name}`
@@ -129,7 +134,8 @@ const message = `Hello ${name}`
 console.log(message) // prints "Hello Leon"
 ```
 
-{% cq %}**Multiline string**{% endcq %}
+**Multiline string**
+
 ```javascript
 console.log(`
   This is a 
@@ -137,7 +143,8 @@ console.log(`
 `)
 ```
 
-{% cq %}**`string.padStart()` & `string.padEnd()`**{% endcq %}
+**`string.padStart()` & `string.padEnd()`**
+
 ```javascript
 > '1'.padStart(3, 0);
 < "001"
@@ -146,7 +153,8 @@ console.log(`
 < "1XXXXXX"
 ```
 
-{% cq %}**Spread operator `...`**{% endcq %}
+**Spread operator `...`**
+
 ```javascript
 const a = [ 1, 2 ]
 const b = [ 3, 4 ]
@@ -156,7 +164,8 @@ const c = [ ...a, ...b ]
 console.log(c) // [1, 2, 3, 4]
 ```
 
-{% cq %}**Destructuring**{% endcq %}
+**Destructuring**
+
 ```javascript
 let obj = { 
   a: 55,
@@ -169,7 +178,8 @@ console.log(a); // 55
 console.log(b); // 44
 ```
 
-{% cq %}**Exponential Operator `**`**{% endcq %}
+**Exponential Operator `**`**
+
 ```javascript
 > 2**2**2
 < 16
@@ -178,18 +188,20 @@ console.log(b); // 44
 < 27
 ```
 
-{% cq %}**`for...of`**{% endcq %}
+**`for...of`**
 
 The `for..of` loop in JavaScript allows you to iterate over iterables (arrays, sets, maps, strings etc).
+
 ```javascript
 for (element of iterable) {
     // body of for...of
 }
 ```
+
 - iterable - an iterable object (array, set, strings, etc).
 - element - items in the iterable
 
-{% cq %}**Class properties**{% endcq %}
+**Class properties**
 
 ```javascript
 class Animal {
@@ -201,7 +213,7 @@ class Animal {
 }
 ```
 
-{% cq %}**Generators**{% endcq %}
+**Generators**
 
 ```javascript
 // generator function

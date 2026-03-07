@@ -1,6 +1,7 @@
 ---
 title: Web Front-end Notes - Vuejs 2
 description: Notes of Vuejs 2
+excerpt: Notes of Vuejs 2
 date: 2020-07-14 16:21:58
 category:
   - WebFrontend
@@ -10,34 +11,6 @@ tag:
   - framework
   - vuejs
 ---
-
-- [Using VueJS to interact with the DOM](#using-vuejs-to-interact-with-the-dom)
-- [Conditionals and Lists Rendereing](#conditionals-and-lists-rendereing)
-- [Communications between Components](#communications-between-components)
-- [Loading Dynamic Contents](#loading-dynamic-contents)
-- [Handling User Inputs with Forms](#handling-user-inputs-with-forms)
-- [Using and Creating Directives](#using-and-creating-directives)
-- [Filters and Mixins](#filters-and-mixins)
-- [Routing](#routing)
-  - [Routing Modes](#routing-modes)
-  - [Basic](#basic)
-  - [Advanced](#advanced)
-    - [Nested Routes](#nested-routes)
-    - [Named Routes](#named-routes)
-    - [Named Router Views](#named-router-views)
-    - [Redirecting](#redirecting)
-    - [Passing Hash Fragment](#passing-hash-fragment)
-    - [Navigation Routes Guard](#navigation-routes-guard)
-    - [Loading Routes Lazily](#loading-routes-lazily)
-- [State Management](#state-management)
-  - [State](#state)
-  - [Getters](#getters)
-    - [Basic Usage](#basic-usage)
-    - [Map Getters to Properties](#map-getters-to-properties)
-  - [Mutations](#mutations)
-    - [Map Mutations to Methods](#map-mutations-to-methods)
-  - [Actions](#actions)
-    - [Map Actions to Methods](#map-actions-to-methods)
 
 ## Using VueJS to interact with the DOM
 

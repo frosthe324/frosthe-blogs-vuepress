@@ -2,24 +2,13 @@
 title: Web Front-end Notes - Css tricks
 date: 2019-11-03 18:21:58
 description: Notes of Css tricks
+excerpt: Notes of Css tricks
 category:
   - WebFrontend
 tag:
   - javascript
   - css
   - styles
----
-
-- [SASS variables vs. Custom CSS properties](#sass-variables-vs-custom-css-properties)
-  - [Icon Fonts vs. Svg Icons](#icon-fonts-vs-svg-icons)
-- [Normal Document Flow](#normal-document-flow)
-- [Block Formatting Context](#block-formatting-context)
-- [Inline Formatting Context](#inline-formatting-context)
-- [Display property](#display-property)
-- [In-flow and out-of-flow](#in-flow-and-out-of-flow)
-  - [Explicitly creating a BFC using display: flow-root](#explicitly-creating-a-bfc-using-display-flow-root)
-- [Margin Collapse](#margin-collapse)
-
 ---
 
 ## SASS variables vs. Custom CSS properties

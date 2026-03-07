@@ -2,6 +2,7 @@
 title: 电信宽带的正确使用姿势
 date: 2018-05-23 14:28:57
 description: 本文介绍了如何正确初始化电信宽带
+excerpt: 本文介绍了如何正确初始化电信宽带
 category: 
 - Home Server
 tag:

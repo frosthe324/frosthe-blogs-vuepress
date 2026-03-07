@@ -12,14 +12,6 @@ tag:
 - modern-javascript
 ---
 
-- [Object API](#object-api)
-  - [Property Descriptor](#property-descriptor)
-- [Web APIs](#web-apis)
-  - [Location Interface](#location-interface)
-  - [Working with the History API](#working-with-the-history-api)
-
----
-
 ## Object API
 
 - `Object.entries()` returns an array of a given object's own enumerable string-keyed property `[key, value]` pairs.

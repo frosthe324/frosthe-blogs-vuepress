@@ -2,6 +2,7 @@
 title: Web Front-end Basics - HTML/HTML5
 date: 2019-09-02 19:21:58
 description: Notes of HTML/HTML5
+excerpt: Notes of HTML/HTML5
 category:
     - WebFrontend
 tag:
@@ -9,9 +10,6 @@ tag:
     - html
     - css
 ---
-
-- [Misc Notes](#misc-notes)
-- [Phases of Page Rendering](#phases-of-page-rendering)
 
 ## Misc Notes
 - input[type="time"] always return the value with UTC time.
