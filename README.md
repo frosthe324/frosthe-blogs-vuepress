@@ -26,7 +26,7 @@ pnpm docs:build
 
 项目配置了 GitHub Actions 自动部署到 GitHub Pages。当代码推送到 `master` 分支时，会自动触发构建和部署流程。
 
-详细部署指南请参考 [部署文档](docs/deployment-instructions.md)。
+详细部署指南请参考[部署文档](.github\workflows\deploy-docs.yml)。
 
 ## 许可证
 
