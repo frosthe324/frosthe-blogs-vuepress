@@ -3,7 +3,7 @@ title: Docker 初探 (6) - Docker Machine
 date: 2018-02-04 23:09:17
 description: 有关 Docker Machine 的用法和场景
 categories:
-- Docker
+- Containerization
 tag: 
 - ops
 - docker

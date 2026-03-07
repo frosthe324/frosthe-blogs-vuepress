@@ -4,9 +4,9 @@ import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
-  lang: 'en-US',
-  title: 'FrostHe.TechBook',
-  description: 'FrostHe\'s Personal blog site',
+  lang: 'zh-CN',
+  title: 'FrostHe 技术博客',
+  description: 'FrostHe 的个人技术博客，分享软件开发、架构设计、人工智能等技术心得',
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
   ],
@@ -16,22 +16,20 @@ export default defineUserConfig({
     navbar: [
       '/',
       {
-        text: 'Article',
-        link: '/article/',
+        text: '文章',
+        link: '/timeline/',
       },
       {
-        text: 'Category',
+        text: '分类',
         link: '/category/',
       },
       {
-        text: 'Tag',
+        text: '标签',
         link: '/tag/',
       },
-      {
-        text: 'Timeline',
-        link: '/timeline/',
-      },
     ],
+    // 添加搜索功能
+    searchMaxSuggestions: 10,
   }),
 
   plugins: [
@@ -72,11 +70,11 @@ export default defineUserConfig({
           layout: 'Category',
           itemLayout: 'Category',
           frontmatter: () => ({
-            title: 'Categories',
+            title: '分类',
             sidebar: false,
           }),
           itemFrontmatter: (name) => ({
-            title: `Category ${name}`,
+            title: `分类：${name}`,
             sidebar: false,
           }),
         },
@@ -91,11 +89,11 @@ export default defineUserConfig({
           layout: 'Tag',
           itemLayout: 'Tag',
           frontmatter: () => ({
-            title: 'Tags',
+            title: '标签',
             sidebar: false,
           }),
           itemFrontmatter: (name) => ({
-            title: `Tag ${name}`,
+            title: `标签：${name}`,
             sidebar: false,
           }),
         },
@@ -108,7 +106,7 @@ export default defineUserConfig({
           filter: (page) => !page.frontmatter.archive,
           layout: 'Article',
           frontmatter: () => ({
-            title: 'Articles',
+            title: '文章',
             sidebar: false,
           }),
           // Sort pages with time and sticky
@@ -139,7 +137,7 @@ export default defineUserConfig({
             new Date(pageA.frontmatter.date).getTime(),
           layout: 'Timeline',
           frontmatter: () => ({
-            title: 'Timeline',
+            title: '时间轴',
             sidebar: false,
           }),
         },

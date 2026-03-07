@@ -3,7 +3,7 @@ title: Docker 初探 (7) - 部署
 date: 2018-02-08 23:09:17
 description: 本文简要介绍了 Docker 的部署
 categories:
-- Docker
+- Containerization
 tag: 
 - ops
 - docker

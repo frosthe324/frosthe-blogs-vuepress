@@ -3,7 +3,7 @@ title: Docker 初探 (4) - Swarms
 date: 2018-01-31 23:09:17
 description: 本文基于 Docker GetStarted 官方文档，去掉了与 Docker Machine 相关的内容，简化了搭建 Docker swarm 的过程
 categories:
-- Docker
+- Containerization
 tag: 
 - ops
 - docker

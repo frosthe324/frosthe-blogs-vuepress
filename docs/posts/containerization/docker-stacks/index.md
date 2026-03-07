@@ -3,7 +3,7 @@ title: Docker 初探 (5) - Stacks
 date: 2018-02-01 23:09:17
 description: 本文介绍了 Docker Stacks 的概念以及如何为 Stack 添加多个服务
 categories:
-- Docker
+- Containerization
 tag: 
 - ops
 - docker

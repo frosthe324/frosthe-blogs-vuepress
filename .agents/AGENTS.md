@@ -1,10 +1,10 @@
 # 技术博客攥写通用规范
 
-适用于所有 AI Agent（Claude Code、Codex、Cursor 等）。
+本项目是一个 vuepress 驱动的博客项目，适用于所有 AI Agent（Claude Code、Codex、Cursor 等）。
 
 ---
 
-## 生成规则
+## 博客文章生成/修改规范
 
 - 编写博客文章始终使用简体中文
 - 技术术语可保持英文原文，在中英文字符之间插入空格以保持格式美观

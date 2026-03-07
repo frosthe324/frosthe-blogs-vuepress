@@ -3,7 +3,7 @@ title: Docker 初探 (3) - Services
 date: 2018-01-30 23:09:17
 description: 本文基于 Docker GetStarted 官方文档，介绍了 Docker Compose 和 Docker Service 的概念以及如何使用
 categories:
-- Docker
+- Containerization
 tag: 
 - ops
 - docker

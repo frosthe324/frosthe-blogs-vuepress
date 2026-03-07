@@ -3,7 +3,7 @@ title: Docker 初探 (2) - Containers
 date: 2018-01-29 23:09:17
 description: 本文基于 Docker GetStarted 官方文档，简要介绍了 Docker 的 Container 概念，如何创建，运行，部署及分享 image
 categories:
-- Docker
+- Containerization
 tag: 
 - ops
 - docker
