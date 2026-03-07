@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app-Cjg_akF9.js";const c={};function o(r,n){return a(),e("div")}const s=t(c,[["render",o]]),i=JSON.parse('{"path":"/tag/","title":"标签","lang":"zh-CN","frontmatter":{"title":"标签","sidebar":false,"blog":{"type":"category","key":"tag"},"layout":"Tag"},"git":{},"filePathRelative":null,"excerpt":""}');export{s as comp,i as data};

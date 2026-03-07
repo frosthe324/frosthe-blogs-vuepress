@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.24" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <link rel="icon" href="/favicon.png"><title>分类：WebFrontend | FrostHe 技术博客</title><meta name="description" content="FrostHe 的个人技术博客，分享软件开发、架构设计、人工智能等技术心得">
+    <link rel="preload" href="/assets/style-CmQpA0vo.css" as="style"><link rel="stylesheet" href="/assets/style-CmQpA0vo.css">
+    <link rel="modulepreload" href="/assets/app-Cjg_akF9.js"><link rel="modulepreload" href="/assets/index.html-Dr5NXFVn.js">
+    <link rel="prefetch" href="/assets/index.html-D-PLHeQs.js" as="script"><link rel="prefetch" href="/assets/get-started.html-fk0Ql26k.js" as="script"><link rel="prefetch" href="/assets/aigc-news.html-q19otsb0.js" as="script"><link rel="prefetch" href="/assets/fine-tuning.html-CunAK5mR.js" as="script"><link rel="prefetch" href="/assets/llm-all-in-one.html-FJf-jffj.js" as="script"><link rel="prefetch" href="/assets/llm-customization.html-BjHkEJKj.js" as="script"><link rel="prefetch" href="/assets/materials.html-CZgv6JJF.js" as="script"><link rel="prefetch" href="/assets/index.html-RSmact-t.js" as="script"><link rel="prefetch" href="/assets/index.html-yyc0b21E.js" as="script"><link rel="prefetch" href="/assets/architecture-cqrs.html-DVkasW47.js" as="script"><link rel="prefetch" href="/assets/architecture-event-driven-communication.html-C9Te5eHw.js" as="script"><link rel="prefetch" href="/assets/architecture-mediator-pattern.html-C8P2shYq.js" as="script"><link rel="prefetch" href="/assets/architecture-microservice-challenges.html-CnM6ipIL.js" as="script"><link rel="prefetch" href="/assets/architecture-repository-pattern.html-CpO7oMdW.js" as="script"><link rel="prefetch" href="/assets/index.html-ChaOj2OI.js" as="script"><link rel="prefetch" href="/assets/index.html-DEslCTZo.js" as="script"><link rel="prefetch" href="/assets/index.html-CLCBwBA_.js" as="script"><link rel="prefetch" href="/assets/index.html-Bokb3e3z.js" as="script"><link rel="prefetch" href="/assets/index.html-CR6H8yA5.js" as="script"><link rel="prefetch" href="/assets/index.html-CiUluCcE.js" as="script"><link rel="prefetch" href="/assets/index.html-4xJ1iAqI.js" as="script"><link rel="prefetch" href="/assets/index.html-ycCENSkj.js" as="script"><link rel="prefetch" href="/assets/index.html-CCWNW0bW.js" as="script"><link rel="prefetch" href="/assets/index.html-D0u9zOfb.js" as="script"><link rel="prefetch" href="/assets/index.html-BX9zn6Dw.js" as="script"><link rel="prefetch" href="/assets/index.html-CB9iBzCG.js" as="script"><link rel="prefetch" href="/assets/index.html-t1Zki5Z8.js" as="script"><link rel="prefetch" href="/assets/index.html-B9Tuxdyi.js" as="script"><link rel="prefetch" href="/assets/index.html-BX6sUWht.js" as="script"><link rel="prefetch" href="/assets/index.html-BBWSLJw9.js" as="script"><link rel="prefetch" href="/assets/index.html-Bp-D18mU.js" as="script"><link rel="prefetch" href="/assets/index.html-DlMzuePU.js" as="script"><link rel="prefetch" href="/assets/index.html-CdBcGIy9.js" as="script"><link rel="prefetch" href="/assets/index.html-CoYS9iKt.js" as="script"><link rel="prefetch" href="/assets/index.html-BUcR1NfY.js" as="script"><link rel="prefetch" href="/assets/index.html-BomXDjeG.js" as="script"><link rel="prefetch" href="/assets/index.html-C4WWo_nh.js" as="script"><link rel="prefetch" href="/assets/index.html-DSF9Hy-j.js" as="script"><link rel="prefetch" href="/assets/index.html-1osph4F8.js" as="script"><link rel="prefetch" href="/assets/index.html-B3B1LtOL.js" as="script"><link rel="prefetch" href="/assets/index.html-Daf8dvqn.js" as="script"><link rel="prefetch" href="/assets/index.html-DUiSxOc3.js" as="script"><link rel="prefetch" href="/assets/Index.html-kRT7pvIT.js" as="script"><link rel="prefetch" href="/assets/index.html-D9UfQBmZ.js" as="script"><link rel="prefetch" href="/assets/index.html-DoBf5Y-z.js" as="script"><link rel="prefetch" href="/assets/index.html-cJxtMHBN.js" as="script"><link rel="prefetch" href="/assets/index.html-DdeTgQYo.js" as="script"><link rel="prefetch" href="/assets/homeserver-install-openwrt-on-router.html-BTWyvTNB.js" as="script"><link rel="prefetch" href="/assets/homeserver-perform-ddns.html-DZ3yvSIL.js" as="script"><link rel="prefetch" href="/assets/homeserver-setup-nas-on-raspberry-pi.html-Dtimdu8e.js" as="script"><link rel="prefetch" href="/assets/homeserver-setup-seafile-on-raspberry-pi.html-BYQo4rlF.js" as="script"><link rel="prefetch" href="/assets/index.html-GBCQmW1m.js" as="script"><link rel="prefetch" href="/assets/linux-configure-csf.html-xLejX7QG.js" as="script"><link rel="prefetch" href="/assets/index.html-Ds6LPiJN.js" as="script"><link rel="prefetch" href="/assets/linux-directory-operations.html-DI9cZk5j.js" as="script"><link rel="prefetch" href="/assets/linux-document-inspect.html-D3SnJJnz.js" as="script"><link rel="prefetch" href="/assets/linux-document-management.html-5KtL39aF.js" as="script"><link rel="prefetch" href="/assets/index.html-FTjdDgaa.js" as="script"><link rel="prefetch" href="/assets/linux-document-search.html-BDSrON8y.js" as="script"><link rel="prefetch" href="/assets/linux-partition.html-B1zo2keQ.js" as="script"><link rel="prefetch" href="/assets/index.html-B_Q37dKJ.js" as="script"><link rel="prefetch" href="/assets/index.html-DwynMsbV.js" as="script"><link rel="prefetch" href="/assets/index.html-DRYsLD1m.js" as="script"><link rel="prefetch" href="/assets/index.html-FOMbppPV.js" as="script"><link rel="prefetch" href="/assets/index.html-DGuV0ht1.js" as="script"><link rel="prefetch" href="/assets/index.html-CNRC3ZHi.js" as="script"><link rel="prefetch" href="/assets/index.html-BlMfEFQX.js" as="script"><link rel="prefetch" href="/assets/security-cert-wildcard-from-letsencrypt.html-DGjNFpg6.js" as="script"><link rel="prefetch" href="/assets/index.html-HaxWXo62.js" as="script"><link rel="prefetch" href="/assets/security-how-letsencrypt-works.html-2UTr__-e.js" as="script"><link rel="prefetch" href="/assets/index.html-DRoIyn84.js" as="script"><link rel="prefetch" href="/assets/index.html-CG0Ng4io.js" as="script"><link rel="prefetch" href="/assets/index.html-BCqOPfKI.js" as="script"><link rel="prefetch" href="/assets/index.html-C8e03uTI.js" as="script"><link rel="prefetch" href="/assets/index.html-B_XuQh8f.js" as="script"><link rel="prefetch" href="/assets/index.html-Mk9cGL2k.js" as="script"><link rel="prefetch" href="/assets/index.html-DYhmpXQS.js" as="script"><link rel="prefetch" href="/assets/smarthome-enable-remote-access-to-ha.html-DSZCjmFl.js" as="script"><link rel="prefetch" href="/assets/index.html-hsHb8VGI.js" as="script"><link rel="prefetch" href="/assets/index.html-CeNwY_4G.js" as="script"><link rel="prefetch" href="/assets/smarthome-ha-device-tracker.html-C5DkedwB.js" as="script"><link rel="prefetch" href="/assets/index.html-md6VeJyx.js" as="script"><link rel="prefetch" href="/assets/index.html-CmShI6R7.js" as="script"><link rel="prefetch" href="/assets/index.html-DVUHgbtR.js" as="script"><link rel="prefetch" href="/assets/index.html-HqugOUo-.js" as="script"><link rel="prefetch" href="/assets/index.html-nI7xUJbK.js" as="script"><link rel="prefetch" href="/assets/index.html-BhvpbRyW.js" as="script"><link rel="prefetch" href="/assets/index.html-D3A90AI-.js" as="script"><link rel="prefetch" href="/assets/index.html-CycABv--.js" as="script"><link rel="prefetch" href="/assets/web-frontend-devnotes-css-modern-layouts.html-7wJ02oQF.js" as="script"><link rel="prefetch" href="/assets/index.html-Baqk8qRA.js" as="script"><link rel="prefetch" href="/assets/index.html-CkG6xssJ.js" as="script"><link rel="prefetch" href="/assets/index.html-DcrQX_j7.js" as="script"><link rel="prefetch" href="/assets/index.html-H78waIAG.js" as="script"><link rel="prefetch" href="/assets/web-frontend-devnotes-js-api.html-Dbhwh_Qx.js" as="script"><link rel="prefetch" href="/assets/index.html-BMi9bk98.js" as="script"><link rel="prefetch" href="/assets/index.html-C8i8tf7Z.js" as="script"><link rel="prefetch" href="/assets/web-frontend-devnotes-responsive-design.html-Dne0XYs3.js" as="script"><link rel="prefetch" href="/assets/index.html-CLx__QV-.js" as="script"><link rel="prefetch" href="/assets/index.html-Bf66HK21.js" as="script"><link rel="prefetch" href="/assets/index.html-COywF78e.js" as="script"><link rel="prefetch" href="/assets/index.html-B0BCwnu1.js" as="script"><link rel="prefetch" href="/assets/web-frontend-es-cheatsheet.html-DS8bv__g.js" as="script"><link rel="prefetch" href="/assets/404.html-TaAZc1bF.js" as="script"><link rel="prefetch" href="/assets/index.html-Wq1SRMzk.js" as="script"><link rel="prefetch" href="/assets/index.html-DbIG5fVA.js" as="script"><link rel="prefetch" href="/assets/index.html-DzbG5-6J.js" as="script"><link rel="prefetch" href="/assets/index.html-lLxeJrjR.js" as="script"><link rel="prefetch" href="/assets/index.html-Bj-7VONt.js" as="script"><link rel="prefetch" href="/assets/index.html-Ct6XFhDU.js" as="script"><link rel="prefetch" href="/assets/index.html-CuZ-xlko.js" as="script"><link rel="prefetch" href="/assets/index.html-BC7EHIGp.js" as="script"><link rel="prefetch" href="/assets/index.html-Bk1oq8_Q.js" as="script"><link rel="prefetch" href="/assets/index.html-BqinyE_q.js" as="script"><link rel="prefetch" href="/assets/index.html-CZJhqz3N.js" as="script"><link rel="prefetch" href="/assets/index.html-C9W1RO5G.js" as="script"><link rel="prefetch" href="/assets/index.html-DpcevXPD.js" as="script"><link rel="prefetch" href="/assets/index.html-BoiSvlR2.js" as="script"><link rel="prefetch" href="/assets/index.html-CBGIoh58.js" as="script"><link rel="prefetch" href="/assets/index.html-OlxF2hww.js" as="script"><link rel="prefetch" href="/assets/index.html-DzrbR1Mf.js" as="script"><link rel="prefetch" href="/assets/index.html-2-WcXvtV.js" as="script"><link rel="prefetch" href="/assets/index.html-CK6YpCQu.js" as="script"><link rel="prefetch" href="/assets/index.html-Du3kVcib.js" as="script"><link rel="prefetch" href="/assets/index.html-Cs6JifxN.js" as="script"><link rel="prefetch" href="/assets/index.html-BWHlBdzb.js" as="script"><link rel="prefetch" href="/assets/index.html-VsRkTUKw.js" as="script"><link rel="prefetch" href="/assets/index.html-d797j_Ze.js" as="script"><link rel="prefetch" href="/assets/index.html-DzQSgcx-.js" as="script"><link rel="prefetch" href="/assets/index.html-D866BGFT.js" as="script"><link rel="prefetch" href="/assets/index.html-Bw9qLLCz.js" as="script"><link rel="prefetch" href="/assets/index.html-STJqIZIJ.js" as="script"><link rel="prefetch" href="/assets/index.html-B8OFgU1j.js" as="script"><link rel="prefetch" href="/assets/index.html-CRc-tNM8.js" as="script"><link rel="prefetch" href="/assets/index.html-C8kI0CfO.js" as="script"><link rel="prefetch" href="/assets/index.html-0jy1nDM9.js" as="script"><link rel="prefetch" href="/assets/index.html-BUCe9yYZ.js" as="script"><link rel="prefetch" href="/assets/index.html-BLez66QJ.js" as="script"><link rel="prefetch" href="/assets/index.html-Bf69lR1Q.js" as="script"><link rel="prefetch" href="/assets/index.html-BI19mjjM.js" as="script"><link rel="prefetch" href="/assets/index.html-KPXJVE0W.js" as="script"><link rel="prefetch" href="/assets/index.html-DaiuVGzM.js" as="script"><link rel="prefetch" href="/assets/index.html-Cx54jCoV.js" as="script"><link rel="prefetch" href="/assets/index.html-Cw0o9hkM.js" as="script"><link rel="prefetch" href="/assets/index.html-o5fdjRoP.js" as="script"><link rel="prefetch" href="/assets/index.html-CmlNMHZv.js" as="script"><link rel="prefetch" href="/assets/index.html-CqLD0ZFz.js" as="script"><link rel="prefetch" href="/assets/index.html-Crfiy4uF.js" as="script"><link rel="prefetch" href="/assets/index.html-Bygg9OjZ.js" as="script"><link rel="prefetch" href="/assets/index.html-Dkabcq42.js" as="script"><link rel="prefetch" href="/assets/index.html-B3ippciz.js" as="script"><link rel="prefetch" href="/assets/index.html-xtjiJdir.js" as="script"><link rel="prefetch" href="/assets/index.html-DDyKwI-W.js" as="script"><link rel="prefetch" href="/assets/index.html-BNUSmu7n.js" as="script"><link rel="prefetch" href="/assets/index.html-Cigw4Emr.js" as="script"><link rel="prefetch" href="/assets/index.html-DtMEliaP.js" as="script"><link rel="prefetch" href="/assets/index.html-CcpDBJh8.js" as="script"><link rel="prefetch" href="/assets/index.html-BJMrMxUb.js" as="script"><link rel="prefetch" href="/assets/index.html-DYAbrCWh.js" as="script"><link rel="prefetch" href="/assets/index.html-G9iqaCWj.js" as="script"><link rel="prefetch" href="/assets/index.html-Yd6YSKhr.js" as="script"><link rel="prefetch" href="/assets/index.html-BbolDFt8.js" as="script"><link rel="prefetch" href="/assets/index.html-BJNk0eKU.js" as="script"><link rel="prefetch" href="/assets/index.html-B92bUSKV.js" as="script"><link rel="prefetch" href="/assets/index.html-YkdrYR4M.js" as="script"><link rel="prefetch" href="/assets/index.html-BewmBcO4.js" as="script"><link rel="prefetch" href="/assets/index.html-AXzBrZjy.js" as="script"><link rel="prefetch" href="/assets/index.html-D59WjJmC.js" as="script"><link rel="prefetch" href="/assets/index.html-dP9Taemy.js" as="script"><link rel="prefetch" href="/assets/index.html-BL_ug0dr.js" as="script"><link rel="prefetch" href="/assets/index.html-0SS6aHVk.js" as="script"><link rel="prefetch" href="/assets/index.html-DlVt10C0.js" as="script"><link rel="prefetch" href="/assets/index.html-tO4EMxR8.js" as="script"><link rel="prefetch" href="/assets/index.html-MODMyg0T.js" as="script"><link rel="prefetch" href="/assets/index.html-B3rDN_fO.js" as="script"><link rel="prefetch" href="/assets/index.html-CWLdsa1b.js" as="script"><link rel="prefetch" href="/assets/index.html-BzAJ3c5w.js" as="script"><link rel="prefetch" href="/assets/index.html-B7c0a8XG.js" as="script"><link rel="prefetch" href="/assets/index.html-BXn8z_fZ.js" as="script"><link rel="prefetch" href="/assets/index.html-DQy3wdAt.js" as="script"><link rel="prefetch" href="/assets/index.html-DgqxcaYq.js" as="script"><link rel="prefetch" href="/assets/index.html-D42hVA_l.js" as="script"><link rel="prefetch" href="/assets/index.html-CxQ8Cylk.js" as="script"><link rel="prefetch" href="/assets/index.html-kEAiAhb4.js" as="script"><link rel="prefetch" href="/assets/index.html-Dasr9GXc.js" as="script"><link rel="prefetch" href="/assets/index.html-DfWUf-w8.js" as="script"><link rel="prefetch" href="/assets/index.html-C6h08S-h.js" as="script"><link rel="prefetch" href="/assets/index.html-D96H5Tr7.js" as="script"><link rel="prefetch" href="/assets/index.html-Dv0S3RuV.js" as="script"><link rel="prefetch" href="/assets/index.html-MBw_w9-d.js" as="script"><link rel="prefetch" href="/assets/index.html-DjnFU_Ql.js" as="script"><link rel="prefetch" href="/assets/index.html-BO5lGi6c.js" as="script"><link rel="prefetch" href="/assets/index.html-M9YaWNG4.js" as="script"><link rel="prefetch" href="/assets/index.html-BA8B36zP.js" as="script"><link rel="prefetch" href="/assets/index.html-BOh9q0yv.js" as="script"><link rel="prefetch" href="/assets/index.html-DbjGsu7l.js" as="script"><link rel="prefetch" href="/assets/index.html-DB_u7qeP.js" as="script"><link rel="prefetch" href="/assets/index.html-Cwjc3fbQ.js" as="script"><link rel="prefetch" href="/assets/index.html-DAALBF_S.js" as="script"><link rel="prefetch" href="/assets/index.html-CSd_e-60.js" as="script"><link rel="prefetch" href="/assets/index.html-kcLTaD3U.js" as="script"><link rel="prefetch" href="/assets/index.html-Ci42NYDe.js" as="script"><link rel="prefetch" href="/assets/index.html-D54PJiER.js" as="script"><link rel="prefetch" href="/assets/index.html-3B2lgqj5.js" as="script"><link rel="prefetch" href="/assets/index.html-L_7z8pTV.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container no-sidebar external-link-icon" vp-container><!--[--><header class="vp-navbar" vp-navbar><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/"><img class="vp-site-logo" src="/images/avatar.jpg" alt="FrostHe 技术博客"><span class="vp-site-name vp-hide-mobile" aria-hidden="true">FrostHe 技术博客</span></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><nav class="vp-navbar-items vp-hide-mobile" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/" aria-label="首页"><!--[--><!--[--><!--]--><!--]-->首页<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/timeline/" aria-label="文章"><!--[--><!--[--><!--]--><!--]-->文章<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link route-link-active auto-link" href="/category/" aria-label="分类"><!--[--><!--[--><!--]--><!--]-->分类<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/tag/" aria-label="标签"><!--[--><!--[--><!--]--><!--]-->标签<!--[--><!--[--><!--]--><!--]--></a></div><!--]--></nav><!--[--><!--]--><button type="button" class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><nav class="vp-navbar-items" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/" aria-label="首页"><!--[--><!--[--><!--]--><!--]-->首页<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/timeline/" aria-label="文章"><!--[--><!--[--><!--]--><!--]-->文章<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link route-link-active auto-link" href="/category/" aria-label="分类"><!--[--><!--[--><!--]--><!--]-->分类<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/tag/" aria-label="标签"><!--[--><!--[--><!--]--><!--]-->标签<!--[--><!--[--><!--]--><!--]--></a></div><!--]--></nav><!--[--><!--]--><!----><!--[--><!--]--></aside><!--]--><!--[--><main class="page"><div class="category-wrapper"><!--[--><a class="route-link category" href="/category/genai/">GenAI <span class="category-num">7</span></a><a class="route-link category" href="/category/nodejs-development-toolchain/">NodeJs Development Toolchain <span class="category-num">1</span></a><a class="route-link category" href="/category/architecture-and-pattern/">Architecture and Pattern <span class="category-num">6</span></a><a class="route-link category" href="/category/domain-driven-design/">Domain-Driven Design <span class="category-num">3</span></a><a class="route-link category" href="/category/asp.net-core/">ASP.NET Core <span class="category-num">6</span></a><a class="route-link category" href="/category/hybrid/">Hybrid <span class="category-num">1</span></a><a class="route-link category" href="/category/home-server/">Home Server <span class="category-num">7</span></a><a class="route-link category" href="/category/linux-basic/">Linux Basic <span class="category-num">6</span></a><a class="route-link category" href="/category/python/">Python <span class="category-num">2</span></a><a class="route-link category" href="/category/web-security/">Web Security <span class="category-num">1</span></a><a class="route-link category" href="/category/cryptography/">Cryptography <span class="category-num">4</span></a><a class="route-link category" href="/category/diy/">DIY <span class="category-num">1</span></a><a class="route-link category" href="/category/smart-home/">Smart Home <span class="category-num">7</span></a><a class="route-link category" href="/category/streaming/">Streaming <span class="category-num">1</span></a><a class="route-link route-link-active category" href="/category/webfrontend/">WebFrontend <span class="category-num">18</span></a><!--]--></div><div class="article-wrapper"><!----><!--[--><article class="article"><header class="title">ES6+ Cheatsheet</header><div class="article-info"><span class="author">Author: Frost He</span><span class="date">Date: 4/20/2022</span></div><hr><div class="excerpt">Cheatsheet of ES6+ features</div></article><article class="article"><header class="title">Web Front-end Notes - Vuejs 2 Practice</header><div class="article-info"><!----><span class="date">Date: 8/5/2020</span></div><hr><div class="excerpt"><ul>
+<li><a href="#vue-cli">Vue CLI</a>
+<ul>
+<li><a href="#cli">CLI</a></li>
+<li><a href="#cli-service">CLI Service</a></li>
+<li><a href="#cli-plugins">CLI Plugins</a></li>
+<li><a href="#cli-presets">CLI Presets</a></li>
+</ul>
+</li>
+<li><a href="#setup-a-vue-cli-project">Setup a Vue CLI project</a>
+<ul>
+<li><a href="#integrate-with-webpack">Integrate with Webpack</a></li>
+<li><a href="#debug-typescript-and-vuejs-in-vs-code">Debug typescript and vuejs in vs code</a></li>
+</ul>
+</li>
+<li><a href="#vue-caveats">Vue Caveats</a>
+<ul>
+<li><a href="#array-properties">Array properties</a></li>
+<li><a href="#object-properties">Object properties</a></li>
+<li><a href="#vue-componentvue-instance">Vue Component/Vue Instance</a>
+<ul>
+<li><a href="#how-vuejs-manages-data-and-methods">How VueJS manages Data and Methods</a></li>
+<li><a href="#mounting-a-template">Mounting a template</a></li>
+<li><a href="#vuejs-intance-lifecycle">VueJS Intance Lifecycle</a></li>
+<li><a href="#computed-properties">Computed Properties</a></li>
+<li><a href="#computed-property-vs-methods">Computed Property vs. Methods</a></li>
+<li><a href="#computed-property-vs-watch">Computed Property vs. Watch</a></li>
+</ul>
+</li>
+<li><a href="#plugins">Plugins</a></li>
+<li><a href="#define-a-plugin-class-in-typescript">Define a plugin class in typescript</a></li>
+<li><a href="#use-functional-components">Use Functional Components</a></li>
+<li><a href="#the-key-attribute">The "key" Attribute</a></li>
+</ul>
+</li>
+</ul></div></article><article class="article"><header class="title">Web Front-end Notes - Vuejs 2</header><div class="article-info"><!----><span class="date">Date: 7/14/2020</span></div><hr><div class="excerpt"><ul>
+<li><a href="#using-vuejs-to-interact-with-the-dom">Using VueJS to interact with the DOM</a></li>
+<li><a href="#conditionals-and-lists-rendereing">Conditionals and Lists Rendereing</a></li>
+<li><a href="#communications-between-components">Communications between Components</a></li>
+<li><a href="#loading-dynamic-contents">Loading Dynamic Contents</a></li>
+<li><a href="#handling-user-inputs-with-forms">Handling User Inputs with Forms</a></li>
+<li><a href="#using-and-creating-directives">Using and Creating Directives</a></li>
+<li><a href="#filters-and-mixins">Filters and Mixins</a></li>
+<li><a href="#routing">Routing</a>
+<ul>
+<li><a href="#routing-modes">Routing Modes</a></li>
+<li><a href="#basic">Basic</a></li>
+<li><a href="#advanced">Advanced</a>
+<ul>
+<li><a href="#nested-routes">Nested Routes</a></li>
+<li><a href="#named-routes">Named Routes</a></li>
+<li><a href="#named-router-views">Named Router Views</a></li>
+<li><a href="#redirecting">Redirecting</a></li>
+<li><a href="#passing-hash-fragment">Passing Hash Fragment</a></li>
+<li><a href="#navigation-routes-guard">Navigation Routes Guard</a></li>
+<li><a href="#loading-routes-lazily">Loading Routes Lazily</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#state-management">State Management</a>
+<ul>
+<li><a href="#state">State</a></li>
+<li><a href="#getters">Getters</a>
+<ul>
+<li><a href="#basic-usage">Basic Usage</a></li>
+<li><a href="#map-getters-to-properties">Map Getters to Properties</a></li>
+</ul>
+</li>
+<li><a href="#mutations">Mutations</a>
+<ul>
+<li><a href="#map-mutations-to-methods">Map Mutations to Methods</a></li>
+</ul>
+</li>
+<li><a href="#actions">Actions</a>
+<ul>
+<li><a href="#map-actions-to-methods">Map Actions to Methods</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></div></article><article class="article"><header class="title">Web Front-end Notes - Typescript Practice</header><div class="article-info"><!----><span class="date">Date: 3/1/2021</span></div><hr><div class="excerpt"><ul>
+<li><a href="#typescript-tooling">TypeScript Tooling</a></li>
+<li><a href="#typescript-centralized-world">TypeScript Centralized World</a>
+<ul>
+<li><a href="#typescript-linting">TypeScript Linting</a>
+<ul>
+<li><a href="#typescript-vue-project-linting">TypeScript Vue Project Linting</a></li>
+</ul>
+</li>
+<li><a href="#typescript-unit-testing">TypeScript Unit Testing</a>
+<ul>
+<li><a href="#jest">Jest</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#debugging-typescript-in-vscode">Debugging Typescript in VSCode</a>
+<ul>
+<li><a href="#debug-nodejs-files">Debug nodejs files</a></li>
+<li><a href="#debug-web-front-end-files">Debug web front-end files</a></li>
+<li><a href="#debug-unit-test-files-from-vscode">Debug Unit Test Files from VSCode</a></li>
+</ul>
+</li>
+</ul></div></article><article class="article"><header class="title">Web Front-end Notes - Typescript</header><div class="article-info"><!----><span class="date">Date: 9/7/2020</span></div><hr><div class="excerpt"><ul>
+<li><a href="#types">Types</a>
+<ul>
+<li><a href="#core-types">Core Types</a></li>
+<li><a href="#object-type">Object Type</a></li>
+<li><a href="#union--intersection-types">Union &amp; Intersection Types</a></li>
+<li><a href="#literal-types">Literal Types</a></li>
+<li><a href="#discriminated-unions">Discriminated Unions</a></li>
+<li><a href="#type-aliases">Type Aliases</a></li>
+<li><a href="#void-type--never-type">Void Type &amp; Never Type</a></li>
+<li><a href="#functions-as-types">Functions as Types</a></li>
+<li><a href="#unknown-type">Unknown Type</a></li>
+</ul>
+</li>
+<li><a href="#classes--interfaces">Classes &amp; Interfaces</a>
+<ul>
+<li><a href="#classes">Classes</a></li>
+<li><a href="#interfaces">Interfaces</a></li>
+<li><a href="#type-alias-vs-interfaces">Type Alias vs. Interfaces</a>
+<ul>
+<li><a href="#declaration-merging">Declaration Merging</a></li>
+<li><a href="#extends-and-implements">Extends and Implements</a></li>
+<li><a href="#what-should-i-use">What should I use?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#type-guards">Type Guards</a>
+<ul>
+<li><a href="#typeof-keyword">"typeof" keyword</a></li>
+<li><a href="#in-keyword">"in" keyword</a></li>
+<li><a href="#instanceof-keyword">"instanceof" keyword</a></li>
+<li><a href="#type-casting">Type Casting</a>
+<ul>
+<li><a href="#ttype-before-the-variable"><code>&lt;TType&gt;</code> before the variable</a></li>
+<li><a href="#as-keyword-after-the-variable">"as" keyword after the variable</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#index-properties">Index Properties</a></li>
+<li><a href="#function-overloads">Function Overloads</a></li>
+<li><a href="#optional-chaining">Optional Chaining</a>
+<ul>
+<li><a href="#nullish-coalescing">Nullish Coalescing</a></li>
+</ul>
+</li>
+<li><a href="#generic-types">Generic Types</a>
+<ul>
+<li><a href="#constraints">Constraints</a>
+<ul>
+<li><a href="#keyof-constraint">"keyof" Constraint</a></li>
+</ul>
+</li>
+<li><a href="#typescript-built-in-generic-utility-types">Typescript built-in generic utility types</a></li>
+</ul>
+</li>
+<li><a href="#decorators">Decorators</a>
+<ul>
+<li><a href="#class-decorators">Class Decorators</a></li>
+<li><a href="#property-decorators">Property Decorators</a></li>
+<li><a href="#accessor-decorators">Accessor Decorators</a></li>
+<li><a href="#methods-decorators">Methods Decorators</a></li>
+<li><a href="#parameter-decorators">Parameter Decorators</a></li>
+</ul>
+</li>
+<li><a href="#typescript-compiler">Typescript Compiler</a>
+<ul>
+<li><a href="#watch-mode">Watch mode:</a></li>
+<li><a href="#compile-entire-project">Compile entire project:</a></li>
+<li><a href="#tsconfigjson">tsconfig.json</a>
+<ul>
+<li><a href="#compileroptions-section">compilerOptions section</a></li>
+</ul>
+</li>
+<li><a href="#debugging-with-visual-studio-code">Debugging with Visual Studio Code</a></li>
+<li><a href="#declaration-files">Declaration Files</a></li>
+</ul>
+</li>
+</ul></div></article><article class="article"><header class="title">Web Front-end Basics - Responsive Design</header><div class="article-info"><span class="author">Author: Frost He</span><span class="date">Date: 10/21/2019</span></div><hr><div class="excerpt">Notes of responsive design</div></article><article class="article"><header class="title">Web Front-end Basics - Nodejs</header><div class="article-info"><!----><span class="date">Date: 3/10/2020</span></div><hr><div class="excerpt"><ul>
+<li><a href="#how-modules-work-behind-the-scenes">How modules work behind the scenes</a></li>
+<li><a href="#event-loop">Event loop</a>
+<ul>
+<li><a href="#tricks">Tricks</a></li>
+</ul>
+</li>
+<li><a href="#streams">Streams</a></li>
+<li><a href="#notes">Notes:</a></li>
+<li><a href="#environment-variables-in-nodejs-development">Environment Variables in Nodejs Development</a></li>
+<li><a href="#express">Express</a>
+<ul>
+<li><a href="#middlewares">Middlewares</a></li>
+<li><a href="#routing">Routing</a></li>
+</ul>
+</li>
+<li><a href="#mongodb">MongoDB</a></li>
+<li><a href="#mongoose">Mongoose</a>
+<ul>
+<li><a href="#schema">Schema</a></li>
+<li><a href="#model">Model</a>
+<ul>
+<li><a href="#virtual-properties">Virtual Properties</a></li>
+<li><a href="#query">Query</a></li>
+<li><a href="#aggregation-pipeline">Aggregation Pipeline</a></li>
+</ul>
+</li>
+<li><a href="#mongoose-middleware">Mongoose Middleware</a></li>
+<li><a href="#validation">Validation</a></li>
+</ul>
+</li>
+<li><a href="#error-handling-in-nodejs-applications">Error handling in Nodejs Applications</a>
+<ul>
+<li><a href="#central-error-handling-middleware">Central error handling middleware</a></li>
+<li><a href="#how-developers-should-handle-errors">How developers should handle errors</a></li>
+</ul>
+</li>
+<li><a href="#security-summary">Security Summary</a>
+<ul>
+<li><a href="#compromised-database">Compromised Database</a></li>
+<li><a href="#brute-forces-attacks">Brute Forces Attacks</a></li>
+<li><a href="#cross-site-scripting-attack">Cross-site Scripting Attack</a></li>
+<li><a href="#denial-of-servicedos-attacks">Denial-Of-Service(DOS) Attacks</a></li>
+<li><a href="#no-sql-query-injection-attacks">NO-SQL Query Injection Attacks</a></li>
+<li><a href="#other-best-practices-and-suggestions">Other Best Practices and Suggestions</a></li>
+</ul>
+</li>
+<li><a href="#data-modelling">Data Modelling</a>
+<ul>
+<li><a href="#types-of-relations">Types of Relations</a></li>
+<li><a href="#referencing-vs-embedding">Referencing vs. Embedding</a></li>
+</ul>
+</li>
+</ul></div></article><article class="article"><header class="title">Web Front-end Basics - Modern Javascript</header><div class="article-info"><!----><span class="date">Date: 11/28/2019</span></div><hr><div class="excerpt"><ul>
+<li><a href="#spa-engineering-methodology">SPA Engineering Methodology</a></li>
+<li><a href="#toolsets">Toolsets</a>
+<ul>
+<li><a href="#npm">NPM</a>
+<ul>
+<li><a href="#package-versioning">Package Versioning</a></li>
+<li><a href="#npm-commands-notes">NPM commands notes:</a></li>
+<li><a href="#npm-scripts">NPM scripts</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#es6-modules">ES6 Modules</a></li>
+<li><a href="#grunt---javascript-task-runner">Grunt - Javascript Task Runner</a>
+<ul>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#gruntfile">Gruntfile</a></li>
+<li><a href="#grunt-plugins-and-tasks">Grunt plugins and tasks</a></li>
+<li><a href="#default-tasks">Default tasks</a></li>
+<li><a href="#custom-tasks">Custom tasks</a></li>
+</ul>
+</li>
+<li><a href="#webpack---assets-bundler">Webpack - Assets Bundler</a></li>
+<li><a href="#babel---es-compiler">Babel - ES Compiler</a>
+<ul>
+<li><a href="#polyfill">Polyfill</a></li>
+</ul>
+</li>
+<li><a href="#regular-expressions-in-javascript">Regular Expressions in Javascript</a>
+<ul>
+<li><a href="#advanced-searching-with-flags">Advanced searching with flags.</a></li>
+</ul>
+</li>
+</ul></div></article><article class="article"><header class="title">Web Front-end Basics - Javascript API</header><div class="article-info"><span class="author">Author: Frost He</span><span class="date">Date: 12/22/2019</span></div><hr><div class="excerpt">Javascript API Handbook</div></article><article class="article"><header class="title">Web Front-end Basics - HTML/HTML5</header><div class="article-info"><!----><span class="date">Date: 9/2/2019</span></div><hr><div class="excerpt"><ul>
+<li><a href="#misc-notes">Misc Notes</a></li>
+<li><a href="#phases-of-page-rendering">Phases of Page Rendering</a></li>
+</ul>
+<h2>Misc Notes</h2>
+<ul>
+<li>input[type="time"] always return the value with UTC time.</li>
+<li>input[type="datetime-local"] returns a local date and time.</li>
+</ul>
+<h2>Phases of Page Rendering</h2></div></article><article class="article"><header class="title">Web Front-end Basics - ES6</header><div class="article-info"><!----><span class="date">Date: 8/16/2019</span></div><hr><div class="excerpt"><ul>
+<li><a href="#let--const">let &amp; const</a></li>
+<li><a href="#blcoks--iifes">blcoks &amp; IIFEs</a></li>
+<li><a href="#strings-in-es6--es2015">Strings in ES6 / ES2015</a></li>
+<li><a href="#arrorw-functions">Arrorw Functions</a></li>
+<li><a href="#destructuring">Destructuring</a></li>
+<li><a href="#arrays-in-es6--es2016">Arrays in ES6 / ES2016</a></li>
+<li><a href="#the-spread-operator">The Spread Operator</a></li>
+<li><a href="#maps">Maps</a></li>
+<li><a href="#classes--inheritance">Classes &amp; Inheritance</a>
+<ul>
+<li><a href="#static-methods">Static methods</a></li>
+<li><a href="#subclasses">Subclasses</a></li>
+</ul>
+</li>
+<li><a href="#asynchronous-javascript--promises">Asynchronous Javascript &amp; Promises</a>
+<ul>
+<li><a href="#promise">Promise</a></li>
+<li><a href="#asyncawait">Async/Await</a></li>
+</ul>
+</li>
+<li><a href="#es6-modules">ES6 Modules</a>
+<ul>
+<li><a href="#exports">Exports</a></li>
+</ul>
+</li>
+<li><a href="#misc-notes">Misc Notes</a></li>
+</ul></div></article><article class="article"><header class="title">Web Front-end Basics - ES5</header><div class="article-info"><!----><span class="date">Date: 8/14/2019</span></div><hr><div class="excerpt"><ul>
+<li><a href="#es-history">ES History</a></li>
+<li><a href="#javascript-basics">Javascript Basics</a>
+<ul>
+<li><a href="#falsy-and-truthy-values">Falsy and Truthy Values</a></li>
+<li><a href="#double-exclamation-marks">Double exclamation marks</a></li>
+<li><a href="#equal-operations">Equal Operations</a></li>
+<li><a href="#function-expression-and-function-declaration">Function Expression and Function Declaration</a></li>
+<li><a href="#arrays">Arrays</a></li>
+</ul>
+</li>
+<li><a href="#javascript-engine">Javascript Engine</a>
+<ul>
+<li><a href="#execution-context">Execution Context</a></li>
+<li><a href="#hoisting%E6%8F%90%E5%8D%87">Hoisting(提升)</a></li>
+<li><a href="#event--event-loop">Event &amp; Event Loop</a>
+<ul>
+<li><a href="#message-queue">Message Queue</a></li>
+<li><a href="#settimeout">setTimeout</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#prototype-inheritance">Prototype Inheritance</a></li>
+<li><a href="#functions">Functions</a>
+<ul>
+<li><a href="#passing-functions-as-arguments">Passing Functions as Arguments</a></li>
+<li><a href="#functions-returning-functions">Functions Returning Functions</a></li>
+<li><a href="#immediately-invoked-funtion-expressioniife">Immediately Invoked Funtion Expression(IIFE)</a></li>
+<li><a href="#closures">Closures</a></li>
+<li><a href="#bind-call-and-apply">Bind, Call and Apply</a></li>
+</ul>
+</li>
+</ul></div></article><article class="article"><header class="title">Web Front-end Notes - Css tricks</header><div class="article-info"><!----><span class="date">Date: 11/3/2019</span></div><hr><div class="excerpt"><ul>
+<li><a href="#sass-variables-vs-custom-css-properties">SASS variables vs. Custom CSS properties</a>
+<ul>
+<li><a href="#icon-fonts-vs-svg-icons">Icon Fonts vs. Svg Icons</a></li>
+</ul>
+</li>
+<li><a href="#normal-document-flow">Normal Document Flow</a></li>
+<li><a href="#block-formatting-context">Block Formatting Context</a></li>
+<li><a href="#inline-formatting-context">Inline Formatting Context</a></li>
+<li><a href="#display-property">Display property</a></li>
+<li><a href="#in-flow-and-out-of-flow">In-flow and out-of-flow</a>
+<ul>
+<li><a href="#explicitly-creating-a-bfc-using-display-flow-root">Explicitly creating a BFC using display: flow-root</a></li>
+</ul>
+</li>
+<li><a href="#margin-collapse">Margin Collapse</a></li>
+</ul></div></article><article class="article"><header class="title">Web Front-end Notes - Modern CSS Layouts</header><div class="article-info"><span class="author">Author: Frost He</span><span class="date">Date: 11/3/2019</span></div><hr><div class="excerpt">Notes of modern CSS layouts</div></article><article class="article"><header class="title">Web Front-end Basics - Css/Css3</header><div class="article-info"><!----><span class="date">Date: 9/14/2019</span></div><hr><div class="excerpt"><ul>
+<li><a href="#3-pillars-of-writing-good-html-and-css">3 Pillars of Writing Good HTML and CSS</a>
+<ul>
+<li><a href="#response-design">Response Design</a></li>
+<li><a href="#maintainable-and-scalable-code">Maintainable and Scalable Code</a></li>
+<li><a href="#web-performance">Web Performance</a></li>
+</ul>
+</li>
+<li><a href="#how-css-works-behind-the-scenes">How CSS works behind the scenes</a>
+<ul>
+<li><a href="#cascaderesolving-conflicting-css-declarations">Cascade(Resolving conflicting CSS declarations)</a></li>
+<li><a href="#css-parsing-phasesprocess-final-css-values">CSS Parsing Phases(Process final CSS values)</a>
+<ul>
+<li><a href="#how-css-engine-calculate-relative-units-in-detail">How CSS Engine Calculate Relative Units in Detail</a></li>
+<li><a href="#css-inheritance">CSS Inheritance</a></li>
+</ul>
+</li>
+<li><a href="#visual-formating-model">Visual Formating Model</a>
+<ul>
+<li><a href="#dimensions-of-boxes-the-box-model">Dimensions of boxes: the box model</a></li>
+<li><a href="#box-type">Box Type</a></li>
+<li><a href="#positioning-schemes">Positioning Schemes</a></li>
+<li><a href="#stacking-contexts">Stacking Contexts</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#sass--npm">Sass &amp; NPM</a>
+<ul>
+<li><a href="#sass--scss">Sass &amp; SCSS</a>
+<ul>
+<li><a href="#nesting">Nesting</a></li>
+<li><a href="#mix-ins">Mix-ins</a></li>
+<li><a href="#functions">Functions</a></li>
+<li><a href="#extends">Extends</a></li>
+</ul>
+</li>
+<li><a href="#install-sass-locally">Install Sass Locally</a></li>
+<li><a href="#7-1-pattern">7-1 Pattern</a></li>
+</ul>
+</li>
+<li><a href="#scsscss-reminders">SCSS/CSS Reminders</a>
+<ul>
+<li><a href="#css-reminders">CSS Reminders</a>
+<ul>
+<li><a href="#global-reset">Global Reset</a></li>
+<li><a href="#box-sizing-border-box">box-sizing: border-box</a></li>
+<li><a href="#selectors">Selectors</a></li>
+<li><a href="#pseudo-classelements">Pseudo Class/Elements</a></li>
+<li><a href="#css-native-functions">CSS Native Functions</a></li>
+<li><a href="#how-the-clearfix-come-and-why-we-need-it">How the clearfix come and Why we need it</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#browser-supports">Browser Supports</a></li>
+<li><a href="#others">Others</a></li>
+</ul></div></article><article class="article"><header class="title">Web Front-end Notes - Bundling</header><div class="article-info"><!----><span class="date">Date: 10/14/2021</span></div><hr><div class="excerpt"><hr>
+<h2>Webpack</h2>
+<p>Webpack is used to compile JavaScript modules. Once installed, you can interact with webpack either from its <a href="https://webpack.js.org/api/cli/" target="_blank" rel="noopener noreferrer">CLI</a> or <a href="https://webpack.js.org/api/node/" target="_blank" rel="noopener noreferrer">API</a>.</p></div></article><article class="article"><header class="title">Web Front-end Notes - AngularJs</header><div class="article-info"><!----><span class="date">Date: 1/2/2020</span></div><hr><div class="excerpt"><ul>
+<li><a href="#bootstrap">Bootstrap</a>
+<ul>
+<li><a href="#automatic-initialization">Automatic Initialization</a></li>
+<li><a href="#manual-initialization">Manual Initialization</a></li>
+</ul>
+</li>
+<li><a href="#dependency-injection">Dependency Injection</a>
+<ul>
+<li><a href="#factory-methods">Factory Methods</a></li>
+<li><a href="#module-methods">Module methods</a></li>
+<li><a href="#controllers">Controllers</a></li>
+<li><a href="#providers">Providers</a>
+<ul>
+<li><a href="#life-cycle-phases">Life Cycle Phases</a></li>
+<li><a href="#value-vs-constant">Value vs. Constant</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#dependency-annotation">Dependency Annotation</a>
+<ul>
+<li><a href="#inline-array-annotation">Inline Array Annotation</a></li>
+<li><a href="#inject-property-annotation">$inject Property Annotation</a></li>
+<li><a href="#implicit-annotation">Implicit Annotation</a></li>
+</ul>
+</li>
+<li><a href="#directives">Directives</a></li>
+<li><a href="#misc-notes">Misc notes</a></li>
+</ul></div></article><article class="article"><header class="title">Next.js 开发笔记</header><div class="article-info"><span class="author">Author: Frost He</span><span class="date">Date: 3/7/2025</span></div><hr><div class="excerpt">记录 Next.js 框架的核心概念、路由系统、组件模式和最佳实践</div></article><!--]--></div></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-Cjg_akF9.js" defer></script>
+  </body>
+</html>
