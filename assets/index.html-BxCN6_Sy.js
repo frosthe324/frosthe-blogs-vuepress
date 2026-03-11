@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app-QvMlUzd7.js";const n={};function i(l,c){return a(),t("div")}const r=e(n,[["render",i]]),s=JSON.parse('{"path":"/timeline/","title":"文章","lang":"zh-CN","frontmatter":{"title":"文章","sidebar":false,"blog":{"type":"type","key":"timeline"},"layout":"Timeline"},"git":{},"filePathRelative":null,"excerpt":""}');export{r as comp,s as data};
