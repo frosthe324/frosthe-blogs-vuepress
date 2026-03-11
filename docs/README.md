@@ -5,7 +5,7 @@ heroImage: /images/avatar.jpg
 heroText: FrostHe 技术博客
 tagline: 分享技术、记录成长、探索创新
 actions:
-  - text: 开始阅读
+  - text: 阅读导览
     link: /get-started.html
     type: primary
 
