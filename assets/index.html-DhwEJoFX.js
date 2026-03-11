@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app-B8KmK2et.js";const c={};function o(r,n){return a(),e("div")}const l=t(c,[["render",o]]),s=JSON.parse('{"path":"/tag/ai/","title":"标签：ai","lang":"zh-CN","frontmatter":{"title":"标签：ai","sidebar":false,"blog":{"type":"category","name":"ai","key":"tag"},"layout":"Tag"},"git":{},"filePathRelative":null,"excerpt":""}');export{l as comp,s as data};
