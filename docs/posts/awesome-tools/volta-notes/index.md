@@ -6,7 +6,7 @@ author: Frost He
 date: 2025-10-21
 lang: zh-CN
 category:
-- NodeJs Development Toolchain
+- Awesome Tools
 tag:
 - volta
 ---

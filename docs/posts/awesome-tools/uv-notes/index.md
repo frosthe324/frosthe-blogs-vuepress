@@ -6,7 +6,7 @@ author: Frost He
 date: 2025-10-30
 lang: zh-CN
 category:
-- Python
+- Awesome Tools
 tag:
 - uv
 ---
