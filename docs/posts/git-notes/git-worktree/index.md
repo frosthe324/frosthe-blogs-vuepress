@@ -2,8 +2,8 @@
 title: Git Worktree - 一个仓库，多个工作目录
 author: Frost He
 date: 2026-03-10
-description: git worktree 让你在磁盘上同时拥有同一仓库的多个工作目录，不再需要 stash、切 branch、再 stash 的循环
-excerpt: git worktree 让你在磁盘上同时拥有同一仓库的多个工作目录，不再需要 stash、切 branch、再 stash 的循环
+description: git worktree 让你在磁盘上同时拥有同一仓库的多个工作目录
+excerpt: git worktree 让你在磁盘上同时拥有同一仓库的多个工作目录
 categories:
 - Git
 tag:
@@ -18,12 +18,6 @@ tag:
 `git worktree` 把它变成**并行**的：为同一个仓库在磁盘上创建多个工作目录，每个目录签出不同的 branch，互不干扰。你不需要在 branch 之间来回切换，而是直接打开另一个目录继续工作。
 
 所有 worktree 共享同一份 `.git` 仓库数据 (对象、引用等)，不需要重复克隆。
-
-## 与 branch 的关系
-
-- 每个 worktree 必须关联一个 branch (或处于 detached HEAD 状态)
-- 同一个 branch 不能同时被两个 worktree 签出 (除非 `--force`)
-- worktree 不是 branch 的替代品 - 它是 branch 的另一种使用方式: 不切换，而是并存
 
 ## 使用场景
 
@@ -44,13 +38,14 @@ git worktree add <path> [<branch>]
 - 省略 `<branch>` 时，Git 以 `<path>` 的最后一段作为 branch 名 - 若该 branch 存在则签出，不存在则自动创建
 - 指定 `<branch>` 时，签出该已有 branch
 
-> **关于路径**: worktree 的路径通常在仓库目录之外(如 `../hotfix`)。worktree 是一个独立的工作目录，放在仓库内部会被 Git 视为仓库内容的一部分，产生干扰。典型的磁盘布局如下:
-> ```
-> ~/projects/
-> ├── my-repo/          ← 主仓库 (main branch)
-> ├── hotfix/           ← worktree (hotfix branch)
-> └── feature-new/      ← worktree (feature/new branch)
-> ```
+**关于路径**: worktree 的路径通常在仓库目录之外(如 `../hotfix`)。worktree 是一个独立的工作目录，放在仓库内部会被 Git 视为仓库内容的一部分，产生干扰。典型的磁盘布局如下:
+
+```
+~/projects/
+├── my-repo/          ← 主仓库 (main branch)
+├── hotfix/           ← worktree (hotfix branch)
+└── feature-new/      ← worktree (feature/new branch)
+```
 
 ```bash
 # 最常用: 省略 branch，自动签出或创建同名 branch
