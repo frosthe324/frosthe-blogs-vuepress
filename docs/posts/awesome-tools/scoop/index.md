@@ -1,5 +1,5 @@
 ---
-title: Windows 工具链管理器: Scoop
+title: Windows 工具链管理器 - Scoop
 description:
 excerpt: 用户态安装、目录可控、对开发工具链更友好。本文记录 Scoop 的优势与 Chocolatey 的对比。
 author: Frost He
